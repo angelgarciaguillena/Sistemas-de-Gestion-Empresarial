@@ -1,0 +1,17 @@
+﻿@model Ejercicio1.Models.Entities.Persona
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Vista de Ejemplo</h2>
+
+<p><strong>Saludo (ViewData):</strong> @ViewData["Saludo"]</p>
+<p><strong>Fecha actual (ViewBag):</strong> @ViewBag.FechaActual</p>
+
+<h3>Datos de la Persona (Modelo)</h3>
+<ul>
+    <li><strong>Nombre:</strong> @Model.nombre</li>
+    <li><strong>Apellidos:</strong> @Model.apellidos</li>
+    <li><strong>Edad:</strong> @Model.edad años</li>
+</ul>
