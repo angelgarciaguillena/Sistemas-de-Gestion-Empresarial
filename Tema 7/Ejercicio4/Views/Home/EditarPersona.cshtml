@@ -1,0 +1,28 @@
+﻿@model Ejercicio4.Models.Entities.clsPersona
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+<h2>Editar Persona</h2>
+
+<form method="post">
+    <div>
+        <label>Nombre</label>
+        @Html.TextBoxFor(m => m.Nombre)
+    </div>
+    <div>
+        <label>Apellidos</label>
+        @Html.TextBoxFor(m => m.Apellidos)
+    </div>
+    <div>
+        <label>Edad</label>
+        @Html.TextBoxFor(m => m.Edad)
+    </div>
+    <div>
+        <label>Departamento</label>
+        @Html.DropDownListFor(m => m.Departamento.IdDepartamento, (SelectList)ViewBag.Departamentos, "Seleccione un departamento")
+    </div>
+    <div>
+        <button type="submit">Guardar</button>
+    </div>
+</form>
+
+<p><a href="@Url.Action("Index", "Home")">Volver a Index</a></p>
