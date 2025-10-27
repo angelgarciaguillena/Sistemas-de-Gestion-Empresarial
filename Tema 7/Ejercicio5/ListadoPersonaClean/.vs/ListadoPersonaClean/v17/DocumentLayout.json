@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|solutionrelative:data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Domain",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-27T13:26:03.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Class1.cs",
+              "RelativeDocumentMoniker": "Data\\Class1.cs",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Class1.cs",
+              "RelativeToolTip": "Data\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T13:19:42.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Class1.cs",
+              "RelativeToolTip": "Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T13:19:19.382Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

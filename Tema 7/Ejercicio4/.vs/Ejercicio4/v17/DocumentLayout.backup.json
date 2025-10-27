@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\",
+  "WorkspaceRootPath": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio4\\models\\dal\\clsdepartamentodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio4\\models\\dal\\clsdepartamentodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|solutionrelative:models\\dal\\clsdepartamentodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio4\\views\\home\\editarpersona.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio4\\views\\home\\editarpersona.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|solutionrelative:views\\home\\editarpersona.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio4\\models\\entities\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio4\\models\\entities\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|solutionrelative:models\\entities\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio4\\models\\entities\\clsdepartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio4\\models\\entities\\clsdepartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|solutionrelative:models\\entities\\clsdepartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio4\\models\\dal\\clspersonadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio4\\models\\dal\\clspersonadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|solutionrelative:models\\dal\\clspersonadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87DA46EC-B1F9-4001-B3F8-BFCC141DA483}|Ejercicio4.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -56,11 +56,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T18:13:45.164Z",
               "EditorCaption": ""
@@ -69,9 +69,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "clsPersonaDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\DAL\\clsPersonaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\DAL\\clsPersonaDAL.cs",
               "RelativeDocumentMoniker": "Models\\DAL\\clsPersonaDAL.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\DAL\\clsPersonaDAL.cs",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\DAL\\clsPersonaDAL.cs",
               "RelativeToolTip": "Models\\DAL\\clsPersonaDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -81,9 +81,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "clsDepartamentoDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\DAL\\clsDepartamentoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\DAL\\clsDepartamentoDAL.cs",
               "RelativeDocumentMoniker": "Models\\DAL\\clsDepartamentoDAL.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\DAL\\clsDepartamentoDAL.cs",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\DAL\\clsDepartamentoDAL.cs",
               "RelativeToolTip": "Models\\DAL\\clsDepartamentoDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,9 +93,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "clsDepartamento.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\Entities\\clsDepartamento.cs",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\Entities\\clsDepartamento.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\clsDepartamento.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\Entities\\clsDepartamento.cs",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\Entities\\clsDepartamento.cs",
               "RelativeToolTip": "Models\\Entities\\clsDepartamento.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -105,9 +105,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "clsPersona.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\Entities\\clsPersona.cs",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\Entities\\clsPersona.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\clsPersona.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\Entities\\clsPersona.cs",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Models\\Entities\\clsPersona.cs",
               "RelativeToolTip": "Models\\Entities\\clsPersona.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -117,9 +117,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "EditarPersona.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Views\\Home\\EditarPersona.cshtml",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Views\\Home\\EditarPersona.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\EditarPersona.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Views\\Home\\EditarPersona.cshtml",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio4\\Views\\Home\\EditarPersona.cshtml",
               "RelativeToolTip": "Views\\Home\\EditarPersona.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
