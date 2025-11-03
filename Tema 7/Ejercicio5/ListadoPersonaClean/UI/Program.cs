@@ -1,6 +1,8 @@
 using Domain.Interfaces;
 using Domain.Repositories;
 using Domain.UseCase;
+using CompositionRoot;
+
 
 internal class Program
 {
@@ -11,8 +13,7 @@ internal class Program
         // Add services to the container.
         builder.Services.AddControllersWithViews();
 
-        builder.Services.AddScoped<IGetListaPersonas, RepositorioVacio>();
-        builder.Services.AddScoped<IGetListaPersonasUseCase, DefaultGetListaPersonasUseCase>();
+        builder.Services.AddCompositionRoot(builder.Configuration);
 
         var app = builder.Build();
 
