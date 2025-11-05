@@ -33,7 +33,7 @@ namespace Data.PersonasRepositorio
                 new Persona(18, "Hugo", "Delgado Cruz"),
                 new Persona(19, "Martina", "Campos Suárez"),
                 new Persona(20, "Emilio", "Fernández Bravo"),
-                ];
+            ];
         }
     }
 }

@@ -12,8 +12,8 @@ namespace Domain.Entities
         private int _id;
         private string _nombre;
         private string _apellido;
-
         #endregion
+
         #region getters y setters
         public int id { get { return _id; } }
         public string nombre
@@ -27,6 +27,7 @@ namespace Domain.Entities
             set { _apellido = value; }
         }
         #endregion
+
         #region constructores
         public Persona() { }
         public Persona(int id, string nombre, string apellido)
@@ -35,7 +36,6 @@ namespace Domain.Entities
             _nombre = nombre;
             _apellido = apellido;
         }
-
         #endregion
     }
 }

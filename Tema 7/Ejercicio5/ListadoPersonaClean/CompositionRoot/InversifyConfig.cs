@@ -10,7 +10,7 @@ namespace CompositionRoot
             // Domain Use Cases
             services.AddTransient<Domain.Interfaces.IGetListaPersonasUseCase, Domain.UseCase.DefaultGetListaPersonasUseCase>();
             // Domain Repositories
-            services.AddTransient<Domain.Repositories.IGetListaPersonas, Data.RepositorioVacio.RepositorioVacio>();
+            services.AddTransient<Domain.Repositories.IGetListaPersonas, Data.PersonasRepositorio.PersonasRepositorio>();
             return services;
         }
     }

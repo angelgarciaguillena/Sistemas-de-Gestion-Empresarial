@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Yepg6na3Y50=",
+  "dgSpecHash": "zSN/WE46n1Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\CompositionRoot\\CompositionRoot.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\CompositionRoot\\CompositionRoot.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\angel.garcia\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.10\\microsoft.extensions.configuration.abstractions.9.0.10.nupkg.sha512",
-    "C:\\Users\\angel.garcia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.10\\microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
-    "C:\\Users\\angel.garcia\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.10\\microsoft.extensions.primitives.9.0.10.nupkg.sha512"
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.10\\microsoft.extensions.configuration.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.10\\microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.10\\microsoft.extensions.primitives.9.0.10.nupkg.sha512"
   ],
   "logs": []
 }
