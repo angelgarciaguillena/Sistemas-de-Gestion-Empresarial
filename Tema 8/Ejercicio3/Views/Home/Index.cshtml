@@ -1,0 +1,24 @@
+﻿@model Ejercicio3.Models.clsPersona
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Ejercicio 3</h2>
+
+<form method="post" action="/Home/Editar">
+    <div>
+        <label for="Id">ID:</label>
+        <input type="text" name="Id" value="@Model.id" readonly />
+    </div>
+    <div>
+        <label for="Nombre">Nombre:</label>
+        @Html.TextBoxFor(Model => Model.nombre)
+    </div>
+    <div>
+        <label for="Apellido">Apellido:</label>
+        @Html.TextBoxFor(Model => Model.apellido)
+    </div>
+    <div>
+        <button type="submit">Guardar</button>
+    </div>
+</form>

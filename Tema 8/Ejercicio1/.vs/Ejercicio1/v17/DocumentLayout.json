@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Ejercicio1\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Ejercicio1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F082A966-AEA7-4FA0-A091-F1A80A290E41}|Ejercicio1\\Ejercicio1.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 8\\ejercicio1\\ejercicio1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F082A966-AEA7-4FA0-A091-F1A80A290E41}|Ejercicio1\\Ejercicio1.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 8\\ejercicio1\\ejercicio1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F082A966-AEA7-4FA0-A091-F1A80A290E41}|Ejercicio1\\Ejercicio1.csproj|solutionrelative:ejercicio1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F082A966-AEA7-4FA0-A091-F1A80A290E41}|Ejercicio1\\Ejercicio1.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 8\\ejercicio1\\ejercicio1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F082A966-AEA7-4FA0-A091-F1A80A290E41}|Ejercicio1\\Ejercicio1.csproj|solutionrelative:ejercicio1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F082A966-AEA7-4FA0-A091-F1A80A290E41}|Ejercicio1\\Ejercicio1.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 8\\ejercicio1\\ejercicio1\\views\\home\\saludo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F082A966-AEA7-4FA0-A091-F1A80A290E41}|Ejercicio1\\Ejercicio1.csproj|solutionrelative:ejercicio1\\views\\home\\saludo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F082A966-AEA7-4FA0-A091-F1A80A290E41}|Ejercicio1\\Ejercicio1.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 8\\ejercicio1\\ejercicio1\\views\\home\\saludo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F082A966-AEA7-4FA0-A091-F1A80A290E41}|Ejercicio1\\Ejercicio1.csproj|solutionrelative:ejercicio1\\views\\home\\saludo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F082A966-AEA7-4FA0-A091-F1A80A290E41}|Ejercicio1\\Ejercicio1.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 8\\ejercicio1\\ejercicio1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F082A966-AEA7-4FA0-A091-F1A80A290E41}|Ejercicio1\\Ejercicio1.csproj|solutionrelative:ejercicio1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,37 +26,36 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Saludo.cshtml",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Ejercicio1\\Ejercicio1\\Views\\Home\\Saludo.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Ejercicio1\\Ejercicio1\\Views\\Home\\Saludo.cshtml",
               "RelativeDocumentMoniker": "Ejercicio1\\Views\\Home\\Saludo.cshtml",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Ejercicio1\\Ejercicio1\\Views\\Home\\Saludo.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Ejercicio1\\Ejercicio1\\Views\\Home\\Saludo.cshtml",
               "RelativeToolTip": "Ejercicio1\\Views\\Home\\Saludo.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-03T13:30:26.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Ejercicio1\\Ejercicio1\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Ejercicio1\\Ejercicio1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Ejercicio1\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Ejercicio1\\Ejercicio1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Ejercicio1\\Ejercicio1\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Ejercicio1\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T13:24:39.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T13:24:39.198Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Ejercicio1\\Ejercicio1\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Ejercicio1\\Ejercicio1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Ejercicio1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Ejercicio1\\Ejercicio1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Ejercicio1\\Ejercicio1\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Ejercicio1\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
