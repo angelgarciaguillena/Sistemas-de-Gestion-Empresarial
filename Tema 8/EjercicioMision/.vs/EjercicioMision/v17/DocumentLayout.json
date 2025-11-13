@@ -15,6 +15,9 @@
       "AbsoluteMoniker": "D:0:0:{F394FAEF-0206-4F8E-8769-F188E3C7B1DC}|..\\Data\\Data.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 8\\data\\repositories\\listadomisiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{266ADEE4-9F2E-4E04-805D-F6CF38DDAB91}|..\\Domain\\Domain.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 8\\domain\\entities\\mision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2665029-B0C2-4353-885D-61EB2E9CFFBF}|EjercicioMision.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 8\\ejerciciomision\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D2665029-B0C2-4353-885D-61EB2E9CFFBF}|EjercicioMision.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -26,8 +29,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mision.cs",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\Entities\\Mision.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Mision.cs",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\Entities\\Mision.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Mision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:48:11.972Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -43,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\EjercicioMision\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -51,8 +67,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-10T12:50:05.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T12:50:05.607Z"
             },
             {
               "$type": "Document",
@@ -62,7 +77,7 @@
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\ListadoMisionesUseCase.cs",
               "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\Interfaces\\ListadoMisionesUseCase.cs",
               "RelativeToolTip": "..\\Domain\\Interfaces\\ListadoMisionesUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T12:41:50.731Z",
               "EditorCaption": ""

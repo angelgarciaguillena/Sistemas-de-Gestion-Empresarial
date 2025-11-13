@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\EjercicioMision\\",
+  "WorkspaceRootPath": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\EjercicioMision\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{266ADEE4-9F2E-4E04-805D-F6CF38DDAB91}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 8\\domain\\interfaces\\listadomisionesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{266ADEE4-9F2E-4E04-805D-F6CF38DDAB91}|..\\Domain\\Domain.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 8\\domain\\usecases\\medianocheusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{266ADEE4-9F2E-4E04-805D-F6CF38DDAB91}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 8\\domain\\interfaces\\listadomisionesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{266ADEE4-9F2E-4E04-805D-F6CF38DDAB91}|..\\Domain\\Domain.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 8\\domain\\interfaces\\listadomisionesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F394FAEF-0206-4F8E-8769-F188E3C7B1DC}|..\\Data\\Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 8\\data\\repositories\\listadomisiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{266ADEE4-9F2E-4E04-805D-F6CF38DDAB91}|..\\Domain\\Domain.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 8\\domain\\interfaces\\listadomisionesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{266ADEE4-9F2E-4E04-805D-F6CF38DDAB91}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 8\\domain\\entities\\mision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F394FAEF-0206-4F8E-8769-F188E3C7B1DC}|..\\Data\\Data.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 8\\data\\repositories\\listadomisiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2665029-B0C2-4353-885D-61EB2E9CFFBF}|EjercicioMision.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 8\\ejerciciomision\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2665029-B0C2-4353-885D-61EB2E9CFFBF}|EjercicioMision.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2665029-B0C2-4353-885D-61EB2E9CFFBF}|EjercicioMision.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 8\\ejerciciomision\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2665029-B0C2-4353-885D-61EB2E9CFFBF}|EjercicioMision.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,71 +26,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListadoMisionesUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\Interfaces\\ListadoMisionesUseCase.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\ListadoMisionesUseCase.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\Interfaces\\ListadoMisionesUseCase.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\ListadoMisionesUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T19:34:40.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ListadoMisionesRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\Interfaces\\ListadoMisionesRepositorio.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\ListadoMisionesRepositorio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\Interfaces\\ListadoMisionesRepositorio.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\ListadoMisionesRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Title": "MediaNocheUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\UseCases\\MediaNocheUseCase.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\UseCases\\MediaNocheUseCase.cs",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\UseCases\\MediaNocheUseCase.cs",
+              "RelativeToolTip": "..\\Domain\\UseCases\\MediaNocheUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T19:30:37.057Z",
+              "WhenOpened": "2025-11-10T12:53:58.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\EjercicioMision\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\EjercicioMision\\Program.cs",
-              "RelativeToolTip": "Program.cs",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\EjercicioMision\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\EjercicioMision\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T12:50:05.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListadoMisionesUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\Interfaces\\ListadoMisionesUseCase.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\ListadoMisionesUseCase.cs",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\Interfaces\\ListadoMisionesUseCase.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\ListadoMisionesUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T19:19:47.356Z",
+              "WhenOpened": "2025-11-10T12:41:50.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ListadoMisiones.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Data\\Repositories\\ListadoMisiones.cs",
-              "RelativeDocumentMoniker": "..\\Data\\Repositories\\ListadoMisiones.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Data\\Repositories\\ListadoMisiones.cs",
-              "RelativeToolTip": "..\\Data\\Repositories\\ListadoMisiones.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Title": "ListadoMisionesRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\Interfaces\\ListadoMisionesRepositorio.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\ListadoMisionesRepositorio.cs",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\Interfaces\\ListadoMisionesRepositorio.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\ListadoMisionesRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T19:16:14.81Z",
+              "WhenOpened": "2025-11-10T12:41:49.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Mision.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\Entities\\Mision.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Mision.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Domain\\Entities\\Mision.cs",
-              "RelativeToolTip": "..\\Domain\\Entities\\Mision.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAlAAAAAAAAAA==",
+              "Title": "ListadoMisiones.cs",
+              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Data\\Repositories\\ListadoMisiones.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Repositories\\ListadoMisiones.cs",
+              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 8\\Data\\Repositories\\ListadoMisiones.cs",
+              "RelativeToolTip": "..\\Data\\Repositories\\ListadoMisiones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T19:07:22.522Z",
+              "WhenOpened": "2025-11-10T12:31:38.615Z",
               "EditorCaption": ""
             }
           ]
