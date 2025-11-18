@@ -9,6 +9,6 @@ namespace Domain.Interfaces
 {
     public interface IGetListaPersonasUseCase
     {
-        Persona[] getListaPersonas();
+        List<Persona> getListaPersonas();
     }
 }

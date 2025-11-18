@@ -18,9 +18,9 @@ namespace Domain.UseCase
             _repository = getListaPersonas;
         }
 
-        public Persona[] getListaPersonas()
+        public List<Persona> getListaPersonas()
         {
-            return _repository.getListaPersonas();
+            return _repository.obtenerListadoPersonas();
         }
     }
 }

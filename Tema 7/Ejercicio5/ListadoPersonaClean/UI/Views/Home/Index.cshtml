@@ -9,18 +9,26 @@
 <table class="table table-bordered table-striped">
     <thead class="table-dark">
         <tr>
-            <th>@Html.DisplayNameFor(model => model.id)</th>
-            <th>@Html.DisplayNameFor(model => model.nombre)</th>
-            <th>@Html.DisplayNameFor(model => model.apellido)</th>
+            <th style="text-align:center">@Html.DisplayNameFor(model => model.First().Id)</th>
+            <th style="text-align:center">@Html.DisplayNameFor(model => model.First().Nombre)</th>
+            <th style="text-align:center">@Html.DisplayNameFor(model => model.First().Apellidos)</th>
+            <th style="text-align:center">@Html.DisplayNameFor(model => model.First().FechaNac)</th>
+            <th style="text-align:center">@Html.DisplayNameFor(model => model.First().Direccion)</th>
+            <th style="text-align:center">@Html.DisplayNameFor(model => model.First().Telefono)</th>
+            <th style="text-align:center">@Html.DisplayNameFor(model => model.First().Foto)</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var persona in Model)
         {
             <tr>
-                <td>@Html.DisplayFor(m => persona.id)</td>
-                <td>@Html.DisplayFor(m => persona.nombre)</td>
-                <td>@Html.DisplayFor(m => persona.apellido)</td>
+                <td>@Html.DisplayFor(m => persona.Id)</td>
+                <td>@Html.DisplayFor(m => persona.Nombre)</td>
+                <td>@Html.DisplayFor(m => persona.Apellidos)</td>
+                <td>@Html.DisplayFor(m => persona.FechaNac)</td>
+                <td>@Html.DisplayFor(m => persona.Direccion)</td>
+                <td>@Html.DisplayFor(m => persona.Telefono)</td>
+                <td style="text-align:center"><img src="@persona.Foto" alt="Foto" style="width: 100px; height: 100px;" /></td>
             </tr>
         }
     </tbody>

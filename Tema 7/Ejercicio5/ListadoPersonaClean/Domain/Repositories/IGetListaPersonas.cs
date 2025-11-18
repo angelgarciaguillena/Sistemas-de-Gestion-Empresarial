@@ -9,6 +9,6 @@ namespace Domain.Repositories
 {
     public interface IGetListaPersonas
     {
-        Persona[] getListaPersonas();
+        List<Persona> obtenerListadoPersonas();
     }
 }

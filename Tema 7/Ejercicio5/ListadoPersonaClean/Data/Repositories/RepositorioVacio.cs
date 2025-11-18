@@ -9,11 +9,18 @@ using System.Threading.Tasks;
 
 namespace Data.RepositorioVacio
 {
-    public class RepositorioVacio : IGetListaPersonas
+    public class ListadoPersonasVacio : IGetListaPersonas
     {
-        public Persona[] getListaPersonas()
+        private List<Persona> _listadoPersonas;
+
+        public ListadoPersonasVacio()
         {
-            return [];
+            _listadoPersonas = new List<Persona>();
+        }
+
+        public List<Persona> obtenerListadoPersonas()
+        {
+            return _listadoPersonas;
         }
     }
 }

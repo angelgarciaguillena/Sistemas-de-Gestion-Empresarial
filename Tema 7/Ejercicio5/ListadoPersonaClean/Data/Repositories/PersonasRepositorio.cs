@@ -1,39 +1,30 @@
-﻿using Domain.Entities;
-using Domain.Repositories;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Domain.Entities;
+using Domain.Repositories;
 
-namespace Data.PersonasRepositorio
+namespace Data.Repositories
 {
-    public class PersonasRepositorio : IGetListaPersonas
+    public class ListadoPersonas : IGetListaPersonas
     {
-        public Persona[] getListaPersonas()
+        private List<Persona> _listadoPersonas;
+
+        public ListadoPersonas()
         {
-            return [
-                new Persona(1, "Elena", "Alcalde García"),
-                new Persona(2, "Luis", "Cerrato Vela"),
-                new Persona(3, "María", "Díaz Fernández"),
-                new Persona(4, "Javier", "Gómez Pérez"),
-                new Persona(5, "Laura", "Martínez López"),
-                new Persona(6, "Carlos", "Sánchez Ruiz"),
-                new Persona(7, "Ana", "Romero Torres"),
-                new Persona(8, "Miguel", "Navarro Díaz"),
-                new Persona(9, "Lucía", "Hernández Rojas"),
-                new Persona(10, "David", "Castro Medina"),
-                new Persona(11, "Sofía", "Moreno García"),
-                new Persona(12, "Andrés", "López Salazar"),
-                new Persona(13, "Valeria", "Núñez Cabrera"),
-                new Persona(14, "Tomás", "Blanco Romero"),
-                new Persona(15, "Paula", "Paredes León"),
-                new Persona(16, "Ignacio", "Ruiz Herrera"),
-                new Persona(17, "Daniela", "Santos Molina"),
-                new Persona(18, "Hugo", "Delgado Cruz"),
-                new Persona(19, "Martina", "Campos Suárez"),
-                new Persona(20, "Emilio", "Fernández Bravo"),
-            ];
+            _listadoPersonas = new List<Persona>()
+            {
+                new Persona(1, "Juan", "Perez", new DateTime(1991, 5, 15), "Calle Falsa 123", "555-1234", "url"),
+                new Persona(2, "Maria", "Gomez", new DateTime(1996, 7, 10), "Avenida Libertad 456", "555-5678", "url"),
+                new Persona(3, "Carlos", "Sanchez", new DateTime(1981, 3, 20), "Plaza Mayor 789", "555-9876", "url")
+            };
+        }
+
+        public List<Persona> obtenerListadoPersonas()
+        {
+            return _listadoPersonas;
         }
     }
 }

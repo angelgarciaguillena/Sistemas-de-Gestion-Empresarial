@@ -1,40 +1,75 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Domain.Entities
+﻿namespace Domain.Entities
 {
     public class Persona
     {
-        #region atributos privados
+        #region Atributos privados
         private int _id;
         private string _nombre;
-        private string _apellido;
+        private string _apellidos;
+        private DateTime _fechaNac;
+        private string _direccion;
+        private string _telefono;
+        private string _foto;
         #endregion
 
-        #region getters y setters
-        public int id { get { return _id; } }
-        public string nombre
+        #region Getters y Setters
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
+        public string Nombre
         {
             get { return _nombre; }
             set { _nombre = value; }
         }
-        public string apellido
+
+        public string Apellidos
         {
-            get { return _apellido; }
-            set { _apellido = value; }
+            get { return _apellidos; }
+            set { _apellidos = value; }
+        }
+
+        public DateTime FechaNac
+        {
+            get { return _fechaNac; }
+            set { _fechaNac = value; }
+        }
+
+        public string Direccion
+        {
+            get { return _direccion; }
+            set { _direccion = value; }
+        }
+
+        public string Telefono
+        {
+            get { return _telefono; }
+            set { _telefono = value; }
+        }
+
+        public string Foto
+        {
+            get { return _foto; }
+            set { _foto = value; }
         }
         #endregion
 
-        #region constructores
+        #region Constructores
+        // Constructor vacío
         public Persona() { }
-        public Persona(int id, string nombre, string apellido)
+
+        // Constructor con parámetros
+        public Persona(int id, string nombre, string apellidos, DateTime fechaNac, string direccion, string telefono, string foto)
         {
             _id = id;
             _nombre = nombre;
-            _apellido = apellido;
+            _apellidos = apellidos;
+            _fechaNac = fechaNac;
+            _direccion = direccion;
+            _telefono = telefono;
+            _foto = foto;
         }
         #endregion
     }
