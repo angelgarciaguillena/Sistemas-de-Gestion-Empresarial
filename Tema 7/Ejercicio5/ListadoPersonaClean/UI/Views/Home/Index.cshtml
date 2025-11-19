@@ -22,12 +22,12 @@
         @foreach (var persona in Model)
         {
             <tr>
-                <td>@Html.DisplayFor(m => persona.Id)</td>
-                <td>@Html.DisplayFor(m => persona.Nombre)</td>
-                <td>@Html.DisplayFor(m => persona.Apellidos)</td>
-                <td>@Html.DisplayFor(m => persona.FechaNac)</td>
-                <td>@Html.DisplayFor(m => persona.Direccion)</td>
-                <td>@Html.DisplayFor(m => persona.Telefono)</td>
+                <td align="center" style="vertical-align:middle">@Html.DisplayFor(m => persona.Id)</td>
+                <td align="center" style="vertical-align:middle">@Html.DisplayFor(m => persona.Nombre)</td>
+                <td align="center" style="vertical-align:middle">@Html.DisplayFor(m => persona.Apellidos)</td>
+                <td align="center" style="vertical-align:middle">@Html.DisplayFor(m => persona.FechaNac)</td>
+                <td align="center" style="vertical-align:middle">@Html.DisplayFor(m => persona.Direccion)</td>
+                <td align="center" style="vertical-align:middle">@Html.DisplayFor(m => persona.Telefono)</td>
                 <td style="text-align:center"><img src="@persona.Foto" alt="Foto" style="width: 100px; height: 100px;" /></td>
             </tr>
         }
