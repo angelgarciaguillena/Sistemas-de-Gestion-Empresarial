@@ -9,7 +9,7 @@ using Microsoft.Data.SqlClient;
 
 namespace Data.Repositories
 {
-    public class PersonasRepositorio : IGetListaPersonas
+    public class PersonasRepositorio : IPersonasRepositorio
     {
         private SqlConnection miConexion = new SqlConnection();
         private List<Persona> listadoPersonas = new List<Persona>();

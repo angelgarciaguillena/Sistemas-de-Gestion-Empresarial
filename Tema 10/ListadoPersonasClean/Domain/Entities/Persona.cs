@@ -16,7 +16,6 @@
         public int Id
         {
             get { return _id; }
-            set { _id = value; }
         }
 
         public string Nombre
@@ -57,10 +56,8 @@
         #endregion
 
         #region Constructores
-        // Constructor vacío
         public Persona() { }
 
-        // Constructor con parámetros
         public Persona(int id, string nombre, string apellidos, DateTime fechaNac, string direccion, string telefono, string foto)
         {
             _id = id;
@@ -69,7 +66,6 @@
             _fechaNac = fechaNac;
             _direccion = direccion;
             _telefono = telefono;
-            _foto = foto;
         }
         #endregion
     }
