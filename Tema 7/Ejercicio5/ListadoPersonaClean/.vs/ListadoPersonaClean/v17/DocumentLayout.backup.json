@@ -1,61 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\data\\database\\conection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|solutionrelative:data\\database\\conection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B36A4733-1022-4324-AC05-49D2EB8C6D59}|UI\\UI.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B36A4733-1022-4324-AC05-49D2EB8C6D59}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\domain\\repositories\\igetlistapersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\igetlistapersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C3D6F5-C056-4244-9D93-DE06DC45F0AB}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\compositionroot\\compositionroot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B0C3D6F5-C056-4244-9D93-DE06DC45F0AB}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\compositionroot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C3D6F5-C056-4244-9D93-DE06DC45F0AB}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\compositionroot\\inversifyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0C3D6F5-C056-4244-9D93-DE06DC45F0AB}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\inversifyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\data\\repositories\\personasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|solutionrelative:data\\repositories\\personasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\data\\repositories\\personasrepositoryazure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\data\\repositories\\personasrepositoryazure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|solutionrelative:data\\repositories\\personasrepositoryazure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\data\\repositories\\repositoriovacio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|solutionrelative:data\\repositories\\repositoriovacio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\domain\\usecases\\defaultgetlistapersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\domain\\usecases\\defaultgetlistapersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\defaultgetlistapersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\domain\\interfaces\\igetlistapersonasusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\domain\\repositories\\igetlistapersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\igetlistapersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3D6F5-C056-4244-9D93-DE06DC45F0AB}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\compositionroot\\inversifyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C3D6F5-C056-4244-9D93-DE06DC45F0AB}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\inversifyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\data\\database\\conection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|solutionrelative:data\\database\\conection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B36A4733-1022-4324-AC05-49D2EB8C6D59}|UI\\UI.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B36A4733-1022-4324-AC05-49D2EB8C6D59}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3D6F5-C056-4244-9D93-DE06DC45F0AB}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\compositionroot\\compositionroot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B0C3D6F5-C056-4244-9D93-DE06DC45F0AB}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\compositionroot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\data\\repositories\\personasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|solutionrelative:data\\repositories\\personasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\data\\repositories\\repositoriovacio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|solutionrelative:data\\repositories\\repositoriovacio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\domain\\interfaces\\igetlistapersonasusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\igetlistapersonasusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|solutionrelative:data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B36A4733-1022-4324-AC05-49D2EB8C6D59}|UI\\UI.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B36A4733-1022-4324-AC05-49D2EB8C6D59}|UI\\UI.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B36A4733-1022-4324-AC05-49D2EB8C6D59}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B36A4733-1022-4324-AC05-49D2EB8C6D59}|UI\\UI.csproj|c:\\users\\angel.garcia\\documents\\github\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B36A4733-1022-4324-AC05-49D2EB8C6D59}|UI\\UI.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B36A4733-1022-4324-AC05-49D2EB8C6D59}|UI\\UI.csproj|solutionrelative:ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -72,21 +72,85 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "IGetListaPersonas.cs",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Repositories\\IGetListaPersonas.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Repositories\\IGetListaPersonas.cs",
               "RelativeDocumentMoniker": "Domain\\Repositories\\IGetListaPersonas.cs",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Repositories\\IGetListaPersonas.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Repositories\\IGetListaPersonas.cs",
               "RelativeToolTip": "Domain\\Repositories\\IGetListaPersonas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T12:37:10.867Z"
+              "WhenOpened": "2025-11-03T12:37:10.867Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "InversifyConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\CompositionRoot\\InversifyConfig.cs",
+              "RelativeDocumentMoniker": "CompositionRoot\\InversifyConfig.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\CompositionRoot\\InversifyConfig.cs",
+              "RelativeToolTip": "CompositionRoot\\InversifyConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:43:04.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Conection.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Database\\Conection.cs",
+              "RelativeDocumentMoniker": "Data\\Database\\Conection.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Database\\Conection.cs",
+              "RelativeToolTip": "Data\\Database\\Conection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T18:49:22.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DefaultGetListaPersonas.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\UseCases\\DefaultGetListaPersonas.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\DefaultGetListaPersonas.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\UseCases\\DefaultGetListaPersonas.cs",
+              "RelativeToolTip": "Domain\\UseCases\\DefaultGetListaPersonas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T13:05:33.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonasRepositoryAzure.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Repositories\\PersonasRepositoryAzure.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\PersonasRepositoryAzure.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Repositories\\PersonasRepositoryAzure.cs",
+              "RelativeToolTip": "Data\\Repositories\\PersonasRepositoryAzure.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T18:51:57.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PersonasRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Repositories\\PersonasRepositorio.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\PersonasRepositorio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Repositories\\PersonasRepositorio.cs",
+              "RelativeToolTip": "Data\\Repositories\\PersonasRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:27:09.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CompositionRoot.csproj",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\CompositionRoot\\CompositionRoot.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\CompositionRoot\\CompositionRoot.csproj",
               "RelativeDocumentMoniker": "CompositionRoot\\CompositionRoot.csproj",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\CompositionRoot\\CompositionRoot.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\CompositionRoot\\CompositionRoot.csproj",
               "RelativeToolTip": "CompositionRoot\\CompositionRoot.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -95,84 +159,34 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "InversifyConfig.cs",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\CompositionRoot\\InversifyConfig.cs",
-              "RelativeDocumentMoniker": "CompositionRoot\\InversifyConfig.cs",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\CompositionRoot\\InversifyConfig.cs",
-              "RelativeToolTip": "CompositionRoot\\InversifyConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T18:43:04.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PersonasRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Repositories\\PersonasRepositorio.cs",
-              "RelativeDocumentMoniker": "Data\\Repositories\\PersonasRepositorio.cs",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Repositories\\PersonasRepositorio.cs",
-              "RelativeToolTip": "Data\\Repositories\\PersonasRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T18:27:09.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Conection.cs",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Database\\Conection.cs",
-              "RelativeDocumentMoniker": "Data\\Database\\Conection.cs",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Database\\Conection.cs",
-              "RelativeToolTip": "Data\\Database\\Conection.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAmwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:49:22.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PersonasRepositoryAzure.cs",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Repositories\\PersonasRepositoryAzure.cs",
-              "RelativeDocumentMoniker": "Data\\Repositories\\PersonasRepositoryAzure.cs",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Repositories\\PersonasRepositoryAzure.cs",
-              "RelativeToolTip": "Data\\Repositories\\PersonasRepositoryAzure.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwDoAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:51:57.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Entities\\Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Entities\\Persona.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Entities\\Persona.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Entities\\Persona.cs",
               "RelativeToolTip": "Domain\\Entities\\Persona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T18:23:57.969Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\UI\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\UI\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\UI\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAB+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-05T18:28:58.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T18:28:58.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "RepositorioVacio.cs",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Repositories\\RepositorioVacio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Repositories\\RepositorioVacio.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\RepositorioVacio.cs",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Repositories\\RepositorioVacio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Repositories\\RepositorioVacio.cs",
               "RelativeToolTip": "Data\\Repositories\\RepositorioVacio.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwBkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -182,9 +196,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "IGetListaPersonasUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -192,23 +206,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DefaultGetListaPersonas.cs",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\UseCases\\DefaultGetListaPersonas.cs",
-              "RelativeDocumentMoniker": "Domain\\UseCases\\DefaultGetListaPersonas.cs",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\UseCases\\DefaultGetListaPersonas.cs",
-              "RelativeToolTip": "Domain\\UseCases\\DefaultGetListaPersonas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T13:05:33.773Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Data.csproj",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Data.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Data.csproj",
               "RelativeDocumentMoniker": "Data\\Data.csproj",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Data.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Data.csproj",
               "RelativeToolTip": "Data\\Data.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -218,9 +220,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\UI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\UI\\Program.cs",
               "RelativeDocumentMoniker": "UI\\Program.cs",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\UI\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\UI\\Program.cs",
               "RelativeToolTip": "UI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -230,9 +232,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\UI\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\UI\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\UI\\Controllers\\HomeController.cs",
               "RelativeToolTip": "UI\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

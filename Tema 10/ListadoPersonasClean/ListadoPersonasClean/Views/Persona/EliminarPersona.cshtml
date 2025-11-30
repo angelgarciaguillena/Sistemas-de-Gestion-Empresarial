@@ -1,0 +1,18 @@
+﻿@model Domain.DTOS.PersonaConNombreDepartamento
+
+<h2>Eliminar Persona</h2>
+
+<p>¿Seguro que deseas eliminar esta persona?</p>
+
+<ul class="list-group">
+    <li class="list-group-item"><strong>ID:</strong> @Model._persona.Id</li>
+    <li class="list-group-item"><strong>Nombre:</strong> @Model._persona.Nombre</li>
+    <li class="list-group-item"><strong>Apellidos:</strong> @Model._persona.Apellidos</li>
+</ul>
+
+<form asp-action="EliminarPersonaConfirmado" method="post" class="mt-3">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="id" value="@Model._persona.Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="IndexPersona" class="btn btn-secondary">Cancelar</a>
+</form>

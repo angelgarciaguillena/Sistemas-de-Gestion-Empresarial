@@ -2,7 +2,7 @@ using System.Diagnostics;
 using ListadoPersonasClean.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ListadoPersonasClean.Controllers
+namespace UI.Controllers
 {
     public class HomeController : Controller
     {

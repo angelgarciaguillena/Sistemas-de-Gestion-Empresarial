@@ -1,0 +1,52 @@
+﻿@model Domain.DTOS.PersonaConListadoDepartamento
+
+<h2>Editar Persona</h2>
+
+<form asp-action="EditarPersona" enctype="multipart/form-data" method="post">
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <!-- Campo hidden del Id -->
+    <input type="hidden" asp-for="Persona.Id" />
+
+    <div class="form-group">
+        <label>Nombre</label>
+        <input asp-for="Persona.Nombre" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Apellidos</label>
+        <input asp-for="Persona.Apellidos" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Telefono</label>
+        <input asp-for="Persona.Telefono" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Dirección</label>
+        <input asp-for="Persona.Direccion" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Fecha Nacimiento</label>
+        <input asp-for="Persona.FechaNacimiento" type="date" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Departamento</label>
+        <select asp-for="Persona.IdDepartamento"
+                class="form-control"
+                asp-items="@(new SelectList(Model.ListadoDepartamentos, "Id", "Nombre", Model.Persona.IdDepartamento))">
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Foto</label>
+        <input type="file" name="FotoFile" class="form-control" />
+    </div>
+
+    <button class="btn btn-primary mt-3" type="submit">Guardar cambios</button>
+    <a asp-action="IndexPersona" class="btn btn-secondary mt-3">Volver</a>
+</form>

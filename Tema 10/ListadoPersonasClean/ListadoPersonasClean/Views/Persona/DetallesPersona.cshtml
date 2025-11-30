@@ -1,0 +1,20 @@
+﻿@model Domain.DTOS.PersonaConNombreDepartamento
+
+<h2>Detalles de la Persona</h2>
+
+<ul class="list-group">
+    <li class="list-group-item"><strong>ID:</strong> @Model._persona.Id</li>
+    <li class="list-group-item"><strong>Nombre:</strong> @Model._persona.Nombre</li>
+    <li class="list-group-item"><strong>Apellidos:</strong> @Model._persona.Apellidos</li>
+    <li class="list-group-item"><strong>Telefono:</strong> @Model._persona.Telefono</li>
+    <li class="list-group-item"><strong>Dirección:</strong> @Model._persona.Direccion</li>
+    <li class="list-group-item"><strong>Fecha Nacimiento:</strong> @Model._persona.FechaNacimiento.ToShortDateString()</li>
+    <li class="list-group-item"><strong>Departamento:</strong> @Model._nombreDepartamento</li>
+
+    <li class="list-group-item">
+        <strong>Foto:</strong><br />
+        <img src="@Model._persona.Foto" width="120" height="120" class="rounded" />
+    </li>
+</ul>
+
+<a asp-action="IndexPersona" class="btn btn-secondary mt-3">Volver</a>

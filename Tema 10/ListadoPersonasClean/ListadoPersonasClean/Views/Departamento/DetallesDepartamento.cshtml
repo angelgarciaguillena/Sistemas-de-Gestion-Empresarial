@@ -1,0 +1,10 @@
+﻿@model Domain.Entities.Departamento
+
+<h2>Detalles del Departamento</h2>
+
+<ul class="list-group">
+    <li class="list-group-item"><strong>ID:</strong> @Model.Id</li>
+    <li class="list-group-item"><strong>Nombre:</strong> @Model.Nombre</li>
+</ul>
+
+<a asp-action="IndexDepartamento" class="btn btn-secondary mt-3">Volver</a>

@@ -1,0 +1,21 @@
+﻿@model Domain.Entities.Departamento
+
+<h2>Eliminar Departamento</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<p>¿Seguro que deseas eliminar este departamento?</p>
+
+<ul class="list-group">
+    <li class="list-group-item"><strong>ID:</strong> @Model.Id</li>
+    <li class="list-group-item"><strong>Nombre:</strong> @Model.Nombre</li>
+</ul>
+
+<form asp-action="EliminarDepartamentoConfirmado" method="post" class="mt-3">
+    <input type="hidden" asp-for="Id" />
+    <button class="btn btn-danger" type="submit">Eliminar</button>
+    <a asp-action="IndexDepartamento" class="btn btn-secondary">Cancelar</a>
+</form>

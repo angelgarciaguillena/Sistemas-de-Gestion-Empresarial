@@ -1,0 +1,47 @@
+﻿@model List<Domain.DTOS.PersonaConNombreDepartamento>
+
+<h2>Listado de Personas</h2>
+
+<a class="btn btn-primary mb-3" asp-action="AgregarPersona">Agregar Persona</a>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Foto</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Departamento</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count > 0)
+        {
+            foreach (var p in Model)
+            {
+                <tr>
+                    <td>
+                        @if (!string.IsNullOrEmpty(p._persona.Foto))
+                        {
+                            <img src="@p._persona.Foto" width="60" height="60" class="rounded" />
+                        }
+                    </td>
+                    <td>@p._persona.Nombre</td>
+                    <td>@p._persona.Apellidos</td>
+                    <td>@p._nombreDepartamento</td>
+                    <td>
+                        <a class="btn btn-warning btn-sm" asp-action="EditarPersona" asp-route-id="@p._persona.Id">Editar</a>
+                        <a class="btn btn-info btn-sm" asp-action="DetallesPersona" asp-route-id="@p._persona.Id">Detalles</a>
+                        <a class="btn btn-danger btn-sm" asp-action="EliminarPersona" asp-route-id="@p._persona.Id">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center">No hay personas registradas</td>
+            </tr>
+        }
+    </tbody>
+</table>

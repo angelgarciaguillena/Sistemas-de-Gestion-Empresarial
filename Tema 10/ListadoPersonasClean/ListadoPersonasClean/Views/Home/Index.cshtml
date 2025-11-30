@@ -1,8 +1,29 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿﻿@{
+ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Gestión de Personas y Departamentos</h1>
+    <p class="lead">Seleccione una opción para administrar el sistema</p>
+
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Personas</h5>
+                    <p class="card-text">Administrar el listado de personas y sus departamentos</p>
+                    <a asp-controller="Persona" asp-action="IndexPersona" class="btn btn-primary">Ir a Personas</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Departamentos</h5>
+                    <p class="card-text">Administrar el listado de departamentos</p>
+                    <a asp-controller="Departamento" asp-action="IndexDepartamento" class="btn btn-success">Ir a Departamentos</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

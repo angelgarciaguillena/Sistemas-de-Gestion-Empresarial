@@ -1,0 +1,30 @@
+﻿@model List<Domain.Entities.Departamento>
+
+<h2>Listado de Departamentos</h2>
+
+<a class="btn btn-primary" asp-action="AgregarDepartamento">Agregar Departamento</a>
+
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var dep in Model)
+        {
+            <tr>
+                <td>@dep.Id</td>
+                <td>@dep.Nombre</td>
+                <td>
+                    <a class="btn btn-warning btn-sm" asp-action="EditarDepartamento" asp-route-id="@dep.Id">Editar</a>
+                    <a class="btn btn-info btn-sm" asp-action="DetallesDepartamento" asp-route-id="@dep.Id">Detalles</a>
+                    <a class="btn btn-danger btn-sm" asp-action="EliminarDepartamento" asp-route-id="@dep.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

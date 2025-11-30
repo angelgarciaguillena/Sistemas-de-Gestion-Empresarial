@@ -1,0 +1,13 @@
+﻿@model Domain.Entities.Departamento
+
+<h2>Agregar Departamento</h2>
+
+<form asp-action="AgregarDepartamento" method="post">
+    <div class="form-group">
+        <label>Nombre</label>
+        <input asp-for="Nombre" class="form-control" />
+    </div>
+
+    <button class="btn btn-success mt-3" type="submit">Guardar</button>
+    <a asp-action="IndexDepartamento" class="btn btn-secondary mt-3">Volver</a>
+</form>

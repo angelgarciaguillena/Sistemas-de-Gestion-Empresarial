@@ -1,0 +1,47 @@
+﻿@model Domain.DTOS.PersonaConListadoDepartamento
+
+<h2>Agregar Persona</h2>
+
+<form asp-action="AgregarPersona" enctype="multipart/form-data" method="post">
+
+    <div class="form-group">
+        <label>Nombre</label>
+        <input asp-for="_persona.Nombre" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Apellidos</label>
+        <input asp-for="_persona.Apellidos" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Telefono</label>
+        <input asp-for="_persona.Telefono" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Dirección</label>
+        <input asp-for="_persona.Direccion" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Fecha Nacimiento</label>
+        <input asp-for="_persona.FechaNacimiento" type="date" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Departamento</label>
+        <select asp-for="_persona.IdDepartamento"
+                class="form-control"
+                asp-items="@(new SelectList(Model._listadoDepartamentos, "Id", "Nombre", Model._persona?.IdDepartamento))">
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Foto</label>
+        <input type="file" name="FotoFile" class="form-control" />
+    </div>
+
+    <button class="btn btn-success mt-3" type="submit">Guardar</button>
+    <a asp-action="IndexPersona" class="btn btn-secondary mt-3">Volver</a>
+</form>
