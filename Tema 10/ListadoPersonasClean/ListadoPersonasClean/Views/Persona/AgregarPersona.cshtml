@@ -3,37 +3,39 @@
 <h2>Agregar Persona</h2>
 
 <form asp-action="AgregarPersona" enctype="multipart/form-data" method="post">
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
     <div class="form-group">
         <label>Nombre</label>
-        <input asp-for="_persona.Nombre" class="form-control" />
+        <input asp-for="Persona.Nombre" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Apellidos</label>
-        <input asp-for="_persona.Apellidos" class="form-control" />
+        <input asp-for="Persona.Apellidos" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Telefono</label>
-        <input asp-for="_persona.Telefono" class="form-control" />
+        <input asp-for="Persona.Telefono" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Dirección</label>
-        <input asp-for="_persona.Direccion" class="form-control" />
+        <input asp-for="Persona.Direccion" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Fecha Nacimiento</label>
-        <input asp-for="_persona.FechaNacimiento" type="date" class="form-control" />
+        <input asp-for="Persona.FechaNacimiento" type="date" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Departamento</label>
-        <select asp-for="_persona.IdDepartamento"
+        <select asp-for="Persona.IdDepartamento"
                 class="form-control"
-                asp-items="@(new SelectList(Model._listadoDepartamentos, "Id", "Nombre", Model._persona?.IdDepartamento))">
+                asp-items="@(new SelectList(Model.ListadoDepartamentos, "Id", "Nombre", Model.Persona?.IdDepartamento))">
         </select>
     </div>
 

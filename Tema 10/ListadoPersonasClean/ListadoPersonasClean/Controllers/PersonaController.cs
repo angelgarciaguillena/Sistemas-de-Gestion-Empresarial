@@ -67,30 +67,41 @@ namespace WebApp.Controllers
         }
 
         [HttpPost]
-        public IActionResult AgregarPersona(PersonaConListadoDepartamento dto, IFormFile FotoFile)
+        [ValidateAntiForgeryToken]
+        public IActionResult AgregarPersona([Bind(Prefix = "Persona")] Persona persona, IFormFile FotoFile)
         {
-            try
-            {
-                if (!ModelState.IsValid)
-                {
-                    dto.ListadoDepartamentos = _personaUseCase.getDepartamentos();
-                    return View(dto);
-                }
+            if (persona == null) persona = new Persona();
 
-                if (FotoFile != null && FotoFile.Length > 0)
-                {
-                    dto.Persona.Foto = FotoFile.FileName;
-                }
-
-                _personaUseCase.agregarPersona(dto.Persona);
-                return RedirectToAction("IndexPersona");
-            }
-            catch (Exception ex)
+            if (!ModelState.IsValid)
             {
-                ViewBag.Error = "Error al crear la persona: " + ex.Message;
-                dto.ListadoDepartamentos = _personaUseCase.getDepartamentos();
-                return View(dto);
+                var fechaRaw = Request.Form["Persona.FechaNacimiento"].ToString();
+                if (!string.IsNullOrWhiteSpace(fechaRaw) && DateTime.TryParse(fechaRaw, out var fecha))
+                {
+                    persona.FechaNacimiento = fecha;
+                    ModelState.Remove("Persona.FechaNacimiento");
+                }
             }
+
+            if (!ModelState.IsValid)
+            {
+                var dtoErr = new PersonaConListadoDepartamento(persona, _personaUseCase.getDepartamentos());
+                return View(dtoErr);
+            }
+
+            if (FotoFile != null && FotoFile.Length > 0)
+            {
+                persona.Foto = FotoFile.FileName;
+            }
+
+            var filas = _personaUseCase.agregarPersona(persona);
+            if (filas <= 0)
+            {
+                ModelState.AddModelError(string.Empty, "No se ha añadido la persona.");
+                var dtoErr = new PersonaConListadoDepartamento(persona, _personaUseCase.getDepartamentos());
+                return View(dtoErr);
+            }
+
+            return RedirectToAction("IndexPersona");
         }
 
         public IActionResult EditarPersona(int id)
@@ -115,32 +126,31 @@ namespace WebApp.Controllers
         }
 
         [HttpPost]
-        public IActionResult EditarPersona(PersonaConListadoDepartamento dto, IFormFile FotoFile)
+        [ValidateAntiForgeryToken]
+        public IActionResult EditarPersona([Bind(Prefix = "Persona")] Persona persona, IFormFile FotoFile)
         {
-            try
+            if (persona == null) return BadRequest();
+
+            if (!ModelState.IsValid)
             {
-                if (dto == null) return BadRequest();
-
-                if (!ModelState.IsValid)
-                {
-                    dto.ListadoDepartamentos = _personaUseCase.getDepartamentos();
-                    return View(dto);
-                }
-
-                if (FotoFile != null && FotoFile.Length > 0)
-                {
-                    dto.Persona.Foto = FotoFile.FileName;
-                }
-
-                _personaUseCase.actualizarPersona(dto.Persona);
-                return RedirectToAction("IndexPersona");
+                var dtoErr = new PersonaConListadoDepartamento(persona, _personaUseCase.getDepartamentos());
+                return View(dtoErr);
             }
-            catch (Exception ex)
+
+            if (FotoFile != null && FotoFile.Length > 0)
             {
-                ViewBag.Error = "Error al actualizar la persona: " + ex.Message;
-                dto.ListadoDepartamentos = _personaUseCase.getDepartamentos();
-                return View(dto);
+                persona.Foto = FotoFile.FileName;
             }
+
+            var filas = _personaUseCase.actualizarPersona(persona);
+            if (filas <= 0)
+            {
+                ModelState.AddModelError(string.Empty, "No se ha actualizado la persona (id quizá incorrecto).");
+                var dtoErr = new PersonaConListadoDepartamento(persona, _personaUseCase.getDepartamentos());
+                return View(dtoErr);
+            }
+
+            return RedirectToAction("IndexPersona");
         }
 
         public IActionResult EliminarPersona(int id)
@@ -165,6 +175,7 @@ namespace WebApp.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult EliminarPersonaConfirmado(int id)
         {
             try
