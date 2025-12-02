@@ -2,7 +2,7 @@
 using Domain.Entities;
 using Domain.Interfaces;
 
-namespace UI.ControllersAPI
+namespace UI.Controllers.ControladoresAPI
 {
     [Route("api/[controller]")]
     [ApiController]

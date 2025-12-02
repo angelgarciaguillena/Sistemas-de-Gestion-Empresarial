@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "UI.ControllersAPI.DepartamentosController",
+    "ContainingType": "UI.Controllers.ControladoresAPI.DepartamentosController",
     "Method": "Get",
-    "RelativePath": "api/Departamentos",
+    "RelativePath": "api/controllers/Departamentos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,9 +10,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "UI.ControllersAPI.DepartamentosController",
+    "ContainingType": "UI.Controllers.ControladoresAPI.DepartamentosController",
     "Method": "Post",
-    "RelativePath": "api/Departamentos",
+    "RelativePath": "api/controllers/Departamentos",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -26,9 +26,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "UI.ControllersAPI.DepartamentosController",
+    "ContainingType": "UI.Controllers.ControladoresAPI.DepartamentosController",
     "Method": "Get",
-    "RelativePath": "api/Departamentos/{id}",
+    "RelativePath": "api/controllers/Departamentos/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -42,9 +42,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "UI.ControllersAPI.DepartamentosController",
+    "ContainingType": "UI.Controllers.ControladoresAPI.DepartamentosController",
     "Method": "Put",
-    "RelativePath": "api/Departamentos/{id}",
+    "RelativePath": "api/controllers/Departamentos/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -63,9 +63,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "UI.ControllersAPI.DepartamentosController",
+    "ContainingType": "UI.Controllers.ControladoresAPI.DepartamentosController",
     "Method": "Delete",
-    "RelativePath": "api/Departamentos/{id}",
+    "RelativePath": "api/controllers/Departamentos/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
