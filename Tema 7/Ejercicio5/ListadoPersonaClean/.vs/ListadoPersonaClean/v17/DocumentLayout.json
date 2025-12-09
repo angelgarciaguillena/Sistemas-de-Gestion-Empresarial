@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\data\\database\\conection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|solutionrelative:data\\database\\conection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B36A4733-1022-4324-AC05-49D2EB8C6D59}|UI\\UI.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B36A4733-1022-4324-AC05-49D2EB8C6D59}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD5A8C8D-B12E-4ECA-A2E0-A5A1D54CFDFB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\data\\database\\conection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67B40988-34DB-415E-988F-3FF553920F3C}|Data\\Data.csproj|solutionrelative:data\\database\\conection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B36A4733-1022-4324-AC05-49D2EB8C6D59}|UI\\UI.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\tema 7\\ejercicio5\\listadopersonaclean\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -66,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "InversifyConfig.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\CompositionRoot\\InversifyConfig.cs",
               "RelativeDocumentMoniker": "CompositionRoot\\InversifyConfig.cs",
@@ -82,19 +82,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Conection.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Database\\Conection.cs",
               "RelativeDocumentMoniker": "Data\\Database\\Conection.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Database\\Conection.cs",
               "RelativeToolTip": "Data\\Database\\Conection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwGkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:49:22.504Z"
+              "WhenOpened": "2025-11-18T18:49:22.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DefaultGetListaPersonas.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\UseCases\\DefaultGetListaPersonas.cs",
               "RelativeDocumentMoniker": "Domain\\UseCases\\DefaultGetListaPersonas.cs",
@@ -106,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PersonasRepositoryAzure.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Data\\Repositories\\PersonasRepositoryAzure.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\PersonasRepositoryAzure.cs",
@@ -114,8 +115,7 @@
               "RelativeToolTip": "Data\\Repositories\\PersonasRepositoryAzure.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAgwA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:51:57.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T18:51:57.503Z"
             },
             {
               "$type": "Document",
@@ -143,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Entities\\Persona.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
@@ -179,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\UI\\Program.cs",
               "RelativeDocumentMoniker": "UI\\Program.cs",
@@ -192,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IGetListaPersonas.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\Tema 7\\Ejercicio5\\ListadoPersonaClean\\Domain\\Repositories\\IGetListaPersonas.cs",
               "RelativeDocumentMoniker": "Domain\\Repositories\\IGetListaPersonas.cs",
