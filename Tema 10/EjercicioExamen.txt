@@ -1,0 +1,147 @@
+App/
+    src/
+
+        CompositionRoot/
+
+            InversifyConfig.cs
+            + static class InversifyConfig
+                + static IServiceCollection AddCompositionRoot(IServiceCollection services, IConfiguration configuration)
+
+
+        Data/
+
+            Repositories/
+
+                PlantaRepository.cs
+                + class PlantaRepository: IPlantaRepository
+                    + List<Planta> getPlantasByCategoria(int idCategoria)
+                    + Planta getPlanta(int id)
+                    + int updatePrecioPlanta(int id, double nuevoPrecio)
+
+                CategoriaRepository.cs
+                + class CategoriaRepository: ICategoriaRepository
+                    + List<Categoria> getCategorias()
+                    + String getNombreCategoria(int idCategoria)
+
+
+        Domain/
+
+            Entities/
+
+                Planta.cs
+                + class Planta
+                    - id: int {get; set}
+                    - nombre: String {get; set}
+                    - descripcion: String {get; set}
+                    - precio: double {get; set}
+                    - idCategoria: int {get; set}
+                    + Planta()
+                    + Planta(id: int, nombre: String, descripcion: String, precio: double, idCategoria: int)
+
+                Categoria.cs
+                + class Categoria
+                    - id: int {get; set}
+                    - nombre: String {get; set}
+                    + Categoria()
+                    + Categoria(id: int, nombre: String)
+
+
+            DTOs/
+
+                PlantaConNombreCategoria.cs
+                + class PlantaConNombreCategoria
+                    + Planta planta {get;}
+                    + String nombreCategoria {get;}
+                    + PlantaConNombreCategoria(Planta planta, String nombreCategoria)
+
+                ListadoCategoriasConListadoPlantas.cs
+                + class ListadoCategoriasConListadoPlantas
+                    + List<Categoria> listadoCategorias {get;}
+                    + List<Planta> listadoPlantas {get;}
+                    + ListadoCategoriasConListadoPlantas(List<Categoria> categorias)
+                    + ListadoCategoriasConListadoPlantas(List<Categoria> categorias, List<Planta> plantas)
+
+
+            Interfaces/
+
+                IPlantaUseCase.cs
+                + interface IPlantaUseCase
+                    + int updatePrecioPlanta(int idPlanta, double precio)
+                    + ListadoCategoriasConListadoPlantas getListadoCategoriasConListadoPlantas(int idCategoria)
+                    + PlantaConNombreCategoria getPlantaConNombreCategoria(int idPlanta)
+
+                ICategoriaUseCase.cs
+                + interface ICategoriaUseCase
+                    + List<Categoria> getCategorias()
+                    + Categoria getNombreCategoria(int idCategoria)
+
+
+            UseCases/
+
+                PlantaUseCase.cs
+                + class PlantaUseCase: IPlantaUseCase
+                    - readonly _plantaRepository
+                    - readonly _categoriaRepository
+                    + PlantaUseCase(IPlantaRepository plantaRepository, ICategoriaRepository categoriaRepository){
+                        _plantaRepository = plantaRepository
+                        _categoriaRepository = categoriaRepository
+                    }
+                    + int updatePrecioPlanta(int idPlanta, double precio)
+                    + ListadoCategoriasConListadoPlantas getListadoCategoriasConListadoPlantas(int idCategoria)
+                    + PlantaConNombreCategoria getPlantaConNombreCategoria(int idPlanta)
+                    - boolean comprobarPrecio(int id, double nuevoPrecio)
+
+                CategoriaUseCase.cs
+                + class CategoriaUseCase: ICategoriaUseCase
+                    - readonly _categoriaRepository
+                    + CategoriaUseCase(ICategoriaRepository categoriaRepository){
+                        _categoriaRepository = categoriaRepository
+                    }
+                    + List<Categoria> getCategorias()
+                    + Categoria getNombreCategoria(int idCategoria)
+
+
+            Repositories/
+
+                IPlantaRepository.cs
+                + interface IPlantaRepository
+                    + List<Planta> getPlantasByCategoria(int idCategoria)
+                    + Planta getPlanta(int id)
+                    + int updatePrecioPlanta(int id, double nuevoPrecio)
+
+                ICategoriaRepository.cs
+                + interface ICategoriaRepository
+                    + List<Categoria> getCategorias()
+                    + String getNombreCategoria(int idCategoria)
+
+
+        UI/
+
+            Models/
+
+            Views/
+
+                Home/
+                    Index.cshtml 
+
+                Plantas/
+                    Index.cshtml @model(ListadoCategoriasConListadoPlantas)
+                    Update.cshtml @model(PlantaConNombreCategoria)
+
+
+            Controller/ 
+                
+                HomeController.cs
+                + class HomeController: Controller
+                    + IActionResult Index()
+
+                PlantaController.cs
+                + class PlantaController: Controller
+                    - readonly _plantaUseCase
+                    + PlantaController(IPlantaUseCase plantaUseCase){
+                        _plantaUseCase = plantaUseCase
+                    }
+                    + IActionResult Index(int idCategoria) return View(_plantaUseCase.getListadoCategoriasConListadoPlantas(int idCategoria))  
+                    + IActionResult Index(int idCategoria) return View(_plantaUseCase.getListadoCategoriasConListadoPlantas(int idCategoria)) [HttpPost] 
+                    + IActionResult Update(int idPlanta) return View(_plantaUseCase.getPlantaConNombreCategoria(int idPlanta))
+                    + IActionResult Update(int idPlanta, double nuevoPrecio) return View(_plantaUseCase.updatePrecioPlanta(int id, double nuevoPrecio)) [HttpPost]    
