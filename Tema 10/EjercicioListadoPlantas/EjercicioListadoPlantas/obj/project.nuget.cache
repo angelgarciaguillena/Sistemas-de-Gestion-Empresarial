@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "dtdAU2j/Rrg=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 10\\EjercicioListadoPlantas\\EjercicioListadoPlantas\\UI.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 10\\ListadoPlantas\\CompositionRoot\\CompositionRoot.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "projectPath": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 10\\EjercicioListadoPlantas\\EjercicioListadoPlantas\\UI.csproj",
+      "filePath": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 10\\EjercicioListadoPlantas\\EjercicioListadoPlantas\\UI.csproj",
+      "libraryId": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 10\\ListadoPlantas\\CompositionRoot\\CompositionRoot.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 10\\ListadoPlantas\\Domain\\Domain.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "projectPath": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 10\\EjercicioListadoPlantas\\EjercicioListadoPlantas\\UI.csproj",
+      "filePath": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 10\\EjercicioListadoPlantas\\EjercicioListadoPlantas\\UI.csproj",
+      "libraryId": "C:\\Users\\angel.garcia\\Documents\\GitHub\\Sistemas-de-Gestion-Empresarial\\Tema 10\\ListadoPlantas\\Domain\\Domain.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

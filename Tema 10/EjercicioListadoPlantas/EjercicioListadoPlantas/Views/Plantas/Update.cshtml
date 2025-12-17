@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Actualizar Precio";
+}
+
+<h2>Actualizar Precio de Planta</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger alert-dismissible" role="alert" style="margin-top: 20px;">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        @ViewBag.Error
+    </div>
+}
+
+@if (ViewBag.Success != null)
+{
+    <div class="alert alert-success alert-dismissible" role="alert" style="margin-top: 20px;">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        @ViewBag.Success
+    </div>
+}
+
+<div class="panel panel-default" style="margin-top: 30px;">
+    <div class="panel-body">
+        <h4><strong>@Model.Planta.Nombre</strong></h4>
+
+        <div class="form-group">
+            <label><strong>Descripción:</strong></label>
+            <p>@Model.Planta.Descripcion</p>
+        </div>
+
+        <div class="form-group">
+            <label><strong>Categoría:</strong></label>
+            <p>@Model.NombreCategoria</p>
+        </div>
+
+        <div class="form-group">
+            <label><strong>Precio Actual:</strong></label>
+            <p style="color: green; font-weight: bold; font-size: 18px;">@Model.Planta.Precio.ToString("C2")</p>
+        </div>
+
+        @using (Html.BeginForm("Update", "Planta", FormMethod.Post))
+        {
+            @Html.Hidden("idPlanta", Model.Planta.Id)
+
+            <div class="form-group">
+                <label for="nuevoPrecio">Nuevo Precio:</label>
+                <input type="number" step="0.01" name="nuevoPrecio" id="nuevoPrecio"
+                       class="form-control" required
+                       placeholder="Introduce el nuevo precio" />
+                <small class="form-text text-muted">
+                    El nuevo precio debe ser mayor a @Model.Planta.Precio.ToString("C2")
+                </small>
+            </div>
+
+            <button type="submit" class="btn btn-success">Guardar</button>
+            @Html.ActionLink("Volver al listado", "Index", null, new { @class = "btn btn-default" })
+        }
+    </div>
+</div>

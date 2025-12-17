@@ -81,10 +81,10 @@ App/
                 PlantaUseCase.cs
                 + class PlantaUseCase: IPlantaUseCase
                     - readonly _plantaRepository
-                    - readonly _categoriaRepository
-                    + PlantaUseCase(IPlantaRepository plantaRepository, ICategoriaRepository categoriaRepository){
+                    - readonly _categoriaUseCase
+                    + PlantaUseCase(IPlantaRepository plantaRepository, ICategoriaUseCase categoriaUseCase){
                         _plantaRepository = plantaRepository
-                        _categoriaRepository = categoriaRepository
+                        _categoriaUseCase = categoriaUseCase
                     }
                     + int updatePrecioPlanta(int idPlanta, double precio)
                     + ListadoCategoriasConListadoPlantas getListadoCategoriasConListadoPlantas(int idCategoria)
@@ -141,7 +141,7 @@ App/
                     + PlantaController(IPlantaUseCase plantaUseCase){
                         _plantaUseCase = plantaUseCase
                     }
-                    + IActionResult Index(int idCategoria) return View(_plantaUseCase.getListadoCategoriasConListadoPlantas(int idCategoria))  
+                    + IActionResult Index() return View(_plantaUseCase.getListadoCategoriasConListadoPlantas(null))  
                     + IActionResult Index(int idCategoria) return View(_plantaUseCase.getListadoCategoriasConListadoPlantas(int idCategoria)) [HttpPost] 
                     + IActionResult Update(int idPlanta) return View(_plantaUseCase.getPlantaConNombreCategoria(int idPlanta))
                     + IActionResult Update(int idPlanta, double nuevoPrecio) return View(_plantaUseCase.updatePrecioPlanta(int id, double nuevoPrecio)) [HttpPost]    

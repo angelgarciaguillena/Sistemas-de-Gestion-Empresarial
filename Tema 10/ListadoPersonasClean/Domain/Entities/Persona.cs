@@ -1,4 +1,7 @@
-﻿namespace Domain.Entities
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+
+namespace Domain.Entities
 {
     public class Persona
     {
@@ -14,48 +17,56 @@
         #endregion
 
         #region Getters y Setters
+        [Required(ErrorMessage = "Campo obligatorio")]
         public int Id
         {
             get { return _id; }
             set { _id = value; }
         }
 
+        [Required(ErrorMessage = "Campo obligatorio")]
         public string Nombre
         {
             get { return _nombre; }
             set { _nombre = value; }
         }
 
+        [Required(ErrorMessage = "Campo obligatorio")]
         public string Apellidos
         {
             get { return _apellidos; }
             set { _apellidos = value; }
         }
 
+        [StringLength(10)]
         public DateTime FechaNacimiento
         {
             get { return _fechaNacimiento; }
             set { _fechaNacimiento = value; }
         }
 
+        [Display(Name = "Direccion")]
         public string Direccion
         {
             get { return _direccion; }
             set { _direccion = value; }
         }
 
+        [StringLength(12)]
         public string Telefono
         {
             get { return _telefono; }
             set { _telefono = value; }
         }
 
+        [Display(Name = "Foto")]
         public string? Foto
         {
             get { return _foto; }
             set { _foto = value; }
         }
 
+        [Display(Name = "Departamento")]
         public int? IdDepartamento
         {
             get { return _idDepartamento; }
