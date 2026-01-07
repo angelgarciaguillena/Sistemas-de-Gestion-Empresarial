@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mO48Q7R8B3A=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\CompositionRoot\\CompositionRoot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.1\\microsoft.extensions.configuration.abstractions.10.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.1\\microsoft.extensions.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.1\\microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.1\\microsoft.extensions.primitives.10.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
