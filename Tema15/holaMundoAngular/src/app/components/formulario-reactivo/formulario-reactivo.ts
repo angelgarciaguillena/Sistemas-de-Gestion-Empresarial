@@ -7,7 +7,7 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
   templateUrl: './formulario-reactivo.html',
   styleUrl: './formulario-reactivo.css',
 })
-export class FormularioReactivoComponent implements OnInit {
+export class FormularioReactivo implements OnInit {
 
   formulario!: FormGroup;
 
