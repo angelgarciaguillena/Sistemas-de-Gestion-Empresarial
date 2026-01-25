@@ -1,0 +1,65 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin: 0;
+  color: #333;
+}
+
+.btn-new {
+  padding: 0.75rem 1.5rem;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.btn-new:hover {
+  opacity: 0.8;
+}
+
+.loading, .error {
+  padding: 1rem;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.loading {
+  background-color: #E3F2FD;
+  color: #1976D2;
+}
+
+.error {
+  background-color: #FFEBEE;
+  color: #C62828;
+}
+
+.departamentos-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+  color: #999;
+}
+
+.empty-state p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}

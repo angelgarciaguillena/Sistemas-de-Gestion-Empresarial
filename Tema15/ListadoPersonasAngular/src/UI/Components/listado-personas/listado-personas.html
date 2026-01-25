@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="header">
+    <h1>Listado de Personas</h1>
+    <button (click)="nuevaPersona()" class="btn-new">Nueva Persona</button>
+  </div>
+
+  <div *ngIf="loading$ | async" class="loading">
+    Cargando...
+  </div>
+
+  <div *ngIf="error$ | async as error" class="error">
+    {{ error }}
+  </div>
+
+  <div class="personas-list">
+    <app-persona-list-item
+      *ngFor="let persona of personas$ | async"
+      [persona]="persona"
+      (editar)="editarPersona($event)"
+      (eliminar)="eliminarPersona($event)">
+    </app-persona-list-item>
+  </div>
+
+  <div *ngIf="(personas$ | async)?.length === 0 && !(loading$ | async)" class="empty-state">
+    <p>No hay personas registradas</p>
+    <button (click)="nuevaPersona()" class="btn-new">Agregar Primera Persona</button>
+  </div>
+</div>

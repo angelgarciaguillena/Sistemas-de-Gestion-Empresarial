@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="header">
+    <h1>Listado de Departamentos</h1>
+    <button (click)="nuevoDepartamento()" class="btn-new">Nuevo Departamento</button>
+  </div>
+
+  <div *ngIf="loading$ | async" class="loading">
+    Cargando...
+  </div>
+
+  <div *ngIf="error$ | async as error" class="error">
+    {{ error }}
+  </div>
+
+  <div class="departamentos-list">
+    <app-departamento-list-item
+      *ngFor="let departamento of departamentos$ | async"
+      [departamento]="departamento"
+      (editar)="editarDepartamento($event)"
+      (eliminar)="eliminarDepartamento($event)">
+    </app-departamento-list-item>
+  </div>
+
+  <div *ngIf="(departamentos$ | async)?.length === 0 && !(loading$ | async)" class="empty-state">
+    <p>No hay departamentos registrados</p>
+    <button (click)="nuevoDepartamento()" class="btn-new">Agregar Primer Departamento</button>
+  </div>
+</div>

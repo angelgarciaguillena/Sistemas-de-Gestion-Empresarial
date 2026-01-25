@@ -1,0 +1,72 @@
+<div class="container">
+  <h1>{{ esEdicion ? 'Editar Persona' : 'Nueva Persona' }}</h1>
+
+  <form [formGroup]="personaForm" (ngSubmit)="guardar()">
+    <div class="form-row">
+      <div class="form-group">
+        <label>Nombre:</label>
+        <input type="text" formControlName="nombre" />
+        <span class="error" *ngIf="personaForm.get('nombre')?.invalid && personaForm.get('nombre')?.touched">
+          El nombre es requerido
+        </span>
+      </div>
+
+      <div class="form-group">
+        <label>Apellidos:</label>
+        <input type="text" formControlName="apellidos" />
+        <span class="error" *ngIf="personaForm.get('apellidos')?.invalid && personaForm.get('apellidos')?.touched">
+          Los apellidos son requeridos
+        </span>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label>Fecha de Nacimiento:</label>
+        <input type="date" formControlName="fechaNacimiento" />
+        <span class="error" *ngIf="personaForm.get('fechaNacimiento')?.invalid && personaForm.get('fechaNacimiento')?.touched">
+          La fecha de nacimiento es requerida
+        </span>
+      </div>
+
+      <div class="form-group">
+        <label>Teléfono:</label>
+        <input type="tel" formControlName="telefono" />
+        <span class="error" *ngIf="personaForm.get('telefono')?.invalid && personaForm.get('telefono')?.touched">
+          El teléfono es requerido
+        </span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Dirección:</label>
+      <input type="text" formControlName="direccion" />
+      <span class="error" *ngIf="personaForm.get('direccion')?.invalid && personaForm.get('direccion')?.touched">
+        La dirección es requerida
+      </span>
+    </div>
+
+    <div class="form-group">
+      <label>URL de la Foto:</label>
+      <input type="text" formControlName="foto" placeholder="https://ejemplo.com/foto.jpg" />
+    </div>
+
+    <div class="form-group">
+      <label>Departamento:</label>
+      <select formControlName="idDepartamento">
+        <option value="">Seleccione un departamento</option>
+        <option *ngFor="let dept of departamentos$ | async" [value]="dept.id">
+          {{ dept.nombre }}
+        </option>
+      </select>
+      <span class="error" *ngIf="personaForm.get('idDepartamento')?.invalid && personaForm.get('idDepartamento')?.touched">
+        Debe seleccionar un departamento
+      </span>
+    </div>
+
+    <div class="form-actions">
+      <button type="button" (click)="cancelar()" class="btn-cancel">Cancelar</button>
+      <button type="submit" [disabled]="personaForm.invalid" class="btn-save">Guardar</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,24 @@
+<div class="persona-item">
+  <div class="persona-avatar">
+    <img [src]="persona.foto || 'assets/default-avatar.png'" [alt]="persona.nombre">
+  </div>
+  <div class="persona-info">
+    <h3>{{ persona.nombre }} {{ persona.apellidos }}</h3>
+    <div class="info-row">
+      <span class="label">Teléfono:</span>
+      <span>{{ persona.telefono }}</span>
+    </div>
+    <div class="info-row">
+      <span class="label">Dirección:</span>
+      <span>{{ persona.direccion }}</span>
+    </div>
+    <div class="info-row">
+      <span class="label">Departamento:</span>
+      <span class="departamento">{{ persona.nombreDepartamento }}</span>
+    </div>
+  </div>
+  <div class="persona-actions">
+    <button (click)="onEditar()" class="btn-edit">Editar</button>
+    <button (click)="onEliminar()" class="btn-delete">Eliminar</button>
+  </div>
+</div>

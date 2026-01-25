@@ -1,0 +1,10 @@
+<div class="departamento-item">
+  <div class="departamento-info">
+    <h3>{{ departamento.nombre }}</h3>
+    <p class="departamento-id">ID: {{ departamento.id }}</p>
+  </div>
+  <div class="departamento-actions">
+    <button (click)="onEditar()" class="btn-edit">Editar</button>
+    <button (click)="onEliminar()" class="btn-delete">Eliminar</button>
+  </div>
+</div>

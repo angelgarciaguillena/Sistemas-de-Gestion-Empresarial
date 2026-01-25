@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>{{ esEdicion ? 'Editar Departamento' : 'Nuevo Departamento' }}</h1>
+
+  <form [formGroup]="departamentoForm" (ngSubmit)="guardar()">
+    <div class="form-group">
+      <label>Nombre del Departamento:</label>
+      <input type="text" formControlName="nombre" placeholder="Ej: Recursos Humanos" />
+      <span class="error" *ngIf="departamentoForm.get('nombre')?.invalid && departamentoForm.get('nombre')?.touched">
+        El nombre del departamento es requerido
+      </span>
+    </div>
+
+    <div class="form-actions">
+      <button type="button" (click)="cancelar()" class="btn-cancel">Cancelar</button>
+      <button type="submit" [disabled]="departamentoForm.invalid" class="btn-save">Guardar</button>
+    </div>
+  </form>
+</div>
