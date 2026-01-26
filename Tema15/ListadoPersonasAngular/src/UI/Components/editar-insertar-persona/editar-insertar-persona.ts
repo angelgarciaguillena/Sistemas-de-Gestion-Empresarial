@@ -2,9 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
+import { Observable } from 'rxjs';
 import { PersonasViewModel } from '../../ViewModels/PersonasViewModel';
 import { DepartamentosViewModel } from '../../ViewModels/DepartamentosViewModel';
 import { PersonaDTO } from '../../../Domain/DTOs/PersonaDTO';
+import { Departamento } from '../../../Domain/Entities/Departamento';
 
 @Component({
   selector: 'app-editar-insertar-persona',
@@ -17,6 +19,7 @@ export class EditarInsertarPersonaComponent implements OnInit {
   personaForm: FormGroup;
   esEdicion = false;
   personaId?: number;
+  departamentos$!: Observable<Departamento[]>;
 
   constructor(
     private fb: FormBuilder,
@@ -25,6 +28,8 @@ export class EditarInsertarPersonaComponent implements OnInit {
     private viewModel: PersonasViewModel,
     private departamentosViewModel: DepartamentosViewModel
   ) {
+    this.departamentos$ = this.departamentosViewModel.departamentos$;
+    
     this.personaForm = this.fb.group({
       nombre: ['', Validators.required],
       apellidos: ['', Validators.required],
@@ -66,12 +71,11 @@ export class EditarInsertarPersonaComponent implements OnInit {
     if (this.personaForm.valid) {
       const formValue = this.personaForm.value;
       
-      // Obtener el nombre del departamento seleccionado
       let nombreDepartamento = '';
-      this.departamentosViewModel.departamentos$.subscribe(departamentos => {
+      this.departamentos$.subscribe(departamentos => {
         const dpto = departamentos.find(d => d.id === Number(formValue.idDepartamento));
         nombreDepartamento = dpto?.nombre || '';
-      });
+      }).unsubscribe();
 
       const persona = new PersonaDTO(
         this.personaId || 0,

@@ -1,13 +1,13 @@
 import { Container } from "inversify";
-import { TYPES } from "./Types.js";
-import { IPersonaRepository } from "../Domain/Repositories/IPersonaRepository.js";
-import { IDepartamentoRepository } from "../Domain/Repositories/IDepartamentoRepository.js";
-import { IPersonaUseCase } from "../Domain/Interfaces/IPersonaUseCase.js";
-import { IDepartamentoUseCase } from "../Domain/Interfaces/IDepartamentoUseCase.js";
-import { PersonaRepository } from "../Data/Repositories/PersonaRepository.js";
-import { DepartamentoRepository } from "../Data/Repositories/DepartamentoRepository.js";
-import { PersonaUseCase } from "../Domain/UseCases/PersonaUseCase.js";
-import { DepartamentoUseCase } from "../Domain/UseCases/DepartamentoUseCase.js";
+import { TYPES } from "./Types";
+import { IPersonaRepository } from "../Domain/Repositories/IPersonaRepository";
+import { IDepartamentoRepository } from "../Domain/Repositories/IDepartamentoRepository";
+import { IPersonaUseCase } from "../Domain/Interfaces/IPersonaUseCase";
+import { IDepartamentoUseCase } from "../Domain/Interfaces/IDepartamentoUseCase";
+import { PersonaRepository } from "../Data/Repositories/PersonaRepository";
+import { DepartamentoRepository } from "../Data/Repositories/DepartamentoRepository";
+import { PersonaUseCase } from "../Domain/UseCases/PersonaUseCase";
+import { DepartamentoUseCase } from "../Domain/UseCases/DepartamentoUseCase";
 
 const container = new Container();
 

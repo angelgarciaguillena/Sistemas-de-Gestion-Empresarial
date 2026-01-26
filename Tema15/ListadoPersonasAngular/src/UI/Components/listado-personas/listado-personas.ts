@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
+import { Observable } from 'rxjs';
 import { PersonasViewModel } from '../../ViewModels/PersonasViewModel';
-import { PersonaDTO } from '../../../Domain/DTOs/PersonaDTO';
 import { PersonaListItemComponent } from '../persona-list-item/persona-list-item';
+import { PersonaDTO } from '../../../Domain/DTOs/PersonaDTO';
 
 @Component({
   selector: 'app-listado-personas',
@@ -13,12 +14,18 @@ import { PersonaListItemComponent } from '../persona-list-item/persona-list-item
   styleUrls: ['./listado-personas.css']
 })
 export class ListadoPersonasComponent implements OnInit {
-  
+  personas$!: Observable<PersonaDTO[]>;
+  loading$!: Observable<boolean>;
+  error$!: Observable<string | null>;
 
   constructor(
     private viewModel: PersonasViewModel,
     private router: Router
-  ) {}
+  ) {
+    this.personas$ = this.viewModel.personas$;
+    this.loading$ = this.viewModel.loading$;
+    this.error$ = this.viewModel.error$;
+  }
 
   ngOnInit(): void {
     this.viewModel.cargarPersonas();

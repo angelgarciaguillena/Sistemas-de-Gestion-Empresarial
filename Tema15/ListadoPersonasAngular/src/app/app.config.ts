@@ -7,5 +7,6 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes)
+    // provideClientHydration() eliminado - solo necesario para SSR
   ]
 };

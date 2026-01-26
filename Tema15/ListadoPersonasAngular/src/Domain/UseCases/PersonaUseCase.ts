@@ -52,7 +52,7 @@ export class PersonaUseCase implements IPersonaUseCase {
 
   async agregarPersona(personaDTO: PersonaDTO): Promise<number> {
     const persona = new Persona(
-      personaDTO.id,
+      0,
       personaDTO.nombre,
       personaDTO.apellidos,
       personaDTO.fechaNacimiento,

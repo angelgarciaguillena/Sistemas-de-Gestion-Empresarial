@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
+import { Observable } from 'rxjs';
 import { DepartamentosViewModel } from '../../ViewModels/DepartamentosViewModel';
 import { Departamento } from '../../../Domain/Entities/Departamento';
 import { DepartamentoListItemComponent } from '../departamento-list-item/departamento-list-item';
@@ -13,11 +14,18 @@ import { DepartamentoListItemComponent } from '../departamento-list-item/departa
   styleUrls: ['./listado-departamentos.css']
 })
 export class ListadoDepartamentosComponent implements OnInit {
+  departamentos$!: Observable<Departamento[]>;
+  loading$!: Observable<boolean>;
+  error$!: Observable<string | null>;
 
   constructor(
     private viewModel: DepartamentosViewModel,
     private router: Router
-  ) {}
+  ) {
+    this.departamentos$ = this.viewModel.departamentos$;
+    this.loading$ = this.viewModel.loading$;
+    this.error$ = this.viewModel.error$;
+  }
 
   ngOnInit(): void {
     this.viewModel.cargarDepartamentos();

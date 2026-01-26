@@ -7,21 +7,21 @@ import { BaseApi } from '../API/BaseApi';
 export class DepartamentoRepository extends BaseApi implements IDepartamentoRepository {
   
   async getDepartamentos(): Promise<Departamento[]> {
-    const response = await fetch(this.getUrl('departamentos'));
+    const response = await fetch(this.getUrl('api/departamentos'));
     const data = await response.json();
     
     return data.map((d: any) => new Departamento(d.id, d.nombre));
   }
 
   async getDepartamento(id: number): Promise<Departamento> {
-    const response = await fetch(this.getUrl(`departamentos/${id}`));
+    const response = await fetch(this.getUrl(`api/departamentos/${id}`));
     const data = await response.json();
     
     return new Departamento(data.id, data.nombre);
   }
 
   async agregarDepartamento(departamento: Departamento): Promise<number> {
-    const response = await fetch(this.getUrl('departamentos'), {
+    const response = await fetch(this.getUrl('api/departamentos'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -34,7 +34,7 @@ export class DepartamentoRepository extends BaseApi implements IDepartamentoRepo
   }
 
   async actualizarDepartamento(departamento: Departamento): Promise<number> {
-    const response = await fetch(this.getUrl(`departamentos/${departamento.id}`), {
+    const response = await fetch(this.getUrl(`api/departamentos/${departamento.id}`), {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -47,7 +47,7 @@ export class DepartamentoRepository extends BaseApi implements IDepartamentoRepo
   }
 
   async eliminarDepartamento(id: number): Promise<number> {
-    const response = await fetch(this.getUrl(`departamentos/${id}`), {
+    const response = await fetch(this.getUrl(`api/departamentos/${id}`), {
       method: 'DELETE'
     });
     

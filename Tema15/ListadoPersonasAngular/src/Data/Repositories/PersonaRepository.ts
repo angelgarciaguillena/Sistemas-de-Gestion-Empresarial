@@ -7,10 +7,40 @@ import { BaseApi } from '../API/BaseApi';
 export class PersonaRepository extends BaseApi implements IPersonaRepository {
   
   async getPersonas(): Promise<Persona[]> {
-    const response = await fetch(this.getUrl('personas'));
+    const response = await fetch(this.getUrl('api/personas'));
+    
+    if (!response.ok) {
+      throw new Error(`Error al obtener personas: ${response.status}`);
+    }
+    
     const data = await response.json();
     
-    return data.map((p: any) => new Persona(
+    return data.map((item: any) => {
+      const p = item._persona;
+      return new Persona(
+        p.id,
+        p.nombre,
+        p.apellidos,
+        new Date(p.fechaNacimiento),
+        p.direccion,
+        p.telefono,
+        p.foto,
+        p.idDepartamento
+      );
+    });
+  }
+
+  async getPersona(id: number): Promise<Persona> {
+    const response = await fetch(this.getUrl(`api/personas/${id}`));
+    
+    if (!response.ok) {
+      throw new Error(`Error al obtener persona: ${response.status}`);
+    }
+    
+    const item = await response.json();
+    const p = item._persona || item;
+    
+    return new Persona(
       p.id,
       p.nombre,
       p.apellidos,
@@ -19,33 +49,19 @@ export class PersonaRepository extends BaseApi implements IPersonaRepository {
       p.telefono,
       p.foto,
       p.idDepartamento
-    ));
-  }
-
-  async getPersona(id: number): Promise<Persona> {
-    const response = await fetch(this.getUrl(`personas/${id}`));
-    const data = await response.json();
-    
-    return new Persona(
-      data.id,
-      data.nombre,
-      data.apellidos,
-      new Date(data.fechaNacimiento),
-      data.direccion,
-      data.telefono,
-      data.foto,
-      data.idDepartamento
     );
   }
 
   async agregarPersona(persona: Persona): Promise<number> {
-    const response = await fetch(this.getUrl('personas'), {
+    const response = await fetch(this.getUrl('api/personas'), {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 
+        'Content-Type': 'application/json'
+      },
       body: JSON.stringify({
         nombre: persona.nombre,
         apellidos: persona.apellidos,
-        fechaNacimiento: persona.fechaNacimiento,
+        fechaNacimiento: persona.fechaNacimiento.toISOString(),
         direccion: persona.direccion,
         telefono: persona.telefono,
         foto: persona.foto,
@@ -53,19 +69,24 @@ export class PersonaRepository extends BaseApi implements IPersonaRepository {
       })
     });
     
-    const data = await response.json();
-    return data.id || 1;
+    if (!response.ok) {
+      throw new Error(`Error al crear persona: ${response.status}`);
+    }
+    
+    return 1;
   }
 
   async actualizarPersona(persona: Persona): Promise<number> {
-    const response = await fetch(this.getUrl(`personas/${persona.id}`), {
+    const response = await fetch(this.getUrl(`api/personas/${persona.id}`), {
       method: 'PUT',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 
+        'Content-Type': 'application/json'
+      },
       body: JSON.stringify({
         id: persona.id,
         nombre: persona.nombre,
         apellidos: persona.apellidos,
-        fechaNacimiento: persona.fechaNacimiento,
+        fechaNacimiento: persona.fechaNacimiento.toISOString(),
         direccion: persona.direccion,
         telefono: persona.telefono,
         foto: persona.foto,
@@ -73,14 +94,22 @@ export class PersonaRepository extends BaseApi implements IPersonaRepository {
       })
     });
     
-    return response.ok ? 1 : 0;
+    if (!response.ok) {
+      throw new Error(`Error al actualizar persona: ${response.status}`);
+    }
+    
+    return 1;
   }
 
   async eliminarPersona(id: number): Promise<number> {
-    const response = await fetch(this.getUrl(`personas/${id}`), {
+    const response = await fetch(this.getUrl(`api/personas/${id}`), {
       method: 'DELETE'
     });
     
-    return response.ok ? 1 : 0;
+    if (!response.ok) {
+      throw new Error(`Error al eliminar persona: ${response.status}`);
+    }
+    
+    return 1;
   }
 }

@@ -67,4 +67,3 @@ export class EditarInsertarDepartamentoComponent implements OnInit {
     this.router.navigate(['/departamentos']);
   }
 }
-
