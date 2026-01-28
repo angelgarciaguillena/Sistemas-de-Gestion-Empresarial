@@ -9,81 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UI
 build_property.RootNamespace = UI
-build_property.ProjectDir = C:\Users\angel.garcia\Documents\GitHub\Sistemas-de-Gestion-Empresarial\Tema 10\ListadoPersonasClean\ListadoPersonasClean\
+build_property.ProjectDir = C:\Users\Usuario\Documents\Sistemas-de-Gestion-Empresarial\Tema 10\ListadoPersonasClean\ListadoPersonasClean\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\angel.garcia\Documents\GitHub\Sistemas-de-Gestion-Empresarial\Tema 10\ListadoPersonasClean\ListadoPersonasClean
+build_property.MSBuildProjectDirectory = C:\Users\Usuario\Documents\Sistemas-de-Gestion-Empresarial\Tema 10\ListadoPersonasClean\ListadoPersonasClean
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Departamento/AgregarDepartamento.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Departamento/AgregarDepartamento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXEFncmVnYXJEZXBhcnRhbWVudG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Departamento/DetallesDepartamento.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Departamento/DetallesDepartamento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXERldGFsbGVzRGVwYXJ0YW1lbnRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Departamento/EditarDepartamento.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Departamento/EditarDepartamento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXEVkaXRhckRlcGFydGFtZW50by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Departamento/EliminarDepartamento.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Departamento/EliminarDepartamento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXEVsaW1pbmFyRGVwYXJ0YW1lbnRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Departamento/IndexDepartamento.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Departamento/IndexDepartamento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXEluZGV4RGVwYXJ0YW1lbnRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Home/Index.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Home/Privacy.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Persona/AgregarPersona.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Persona/AgregarPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxBZ3JlZ2FyUGVyc29uYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Persona/DetallesPersona.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Persona/DetallesPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxEZXRhbGxlc1BlcnNvbmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Persona/EditarPersona.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Persona/EditarPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxFZGl0YXJQZXJzb25hLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Persona/EliminarPersona.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Persona/EliminarPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxFbGltaW5hclBlcnNvbmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Persona/IndexPersona.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Persona/IndexPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxJbmRleFBlcnNvbmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Shared/Error.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/_ViewImports.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/_ViewStart.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/angel.garcia/Documents/GitHub/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Shared/_Layout.cshtml]
+[C:/Users/Usuario/Documents/Sistemas-de-Gestion-Empresarial/Tema 10/ListadoPersonasClean/ListadoPersonasClean/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-k1t0mrplc2
