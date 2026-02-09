@@ -3,6 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A3C25789-C801-4F13-9181-151B19817AA5}|UI.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\recuperaciongestionempresarial\\ejerciciorecuperacion\\mappers\\domaintoui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3C25789-C801-4F13-9181-151B19817AA5}|UI.csproj|solutionrelative:mappers\\domaintoui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B81E16C-E41C-418D-AA59-A07C5A6FA9F0}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\recuperaciongestionempresarial\\domain\\dtos\\personacondepartamentoseleccionado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3C25789-C801-4F13-9181-151B19817AA5}|UI.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\recuperaciongestionempresarial\\ejerciciorecuperacion\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A3C25789-C801-4F13-9181-151B19817AA5}|UI.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +24,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A3C25789-C801-4F13-9181-151B19817AA5}|UI.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\recuperaciongestionempresarial\\ejerciciorecuperacion\\mappers\\idomaintoui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3C25789-C801-4F13-9181-151B19817AA5}|UI.csproj|solutionrelative:mappers\\idomaintoui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3C25789-C801-4F13-9181-151B19817AA5}|UI.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\recuperaciongestionempresarial\\ejerciciorecuperacion\\mappers\\domaintoui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3C25789-C801-4F13-9181-151B19817AA5}|UI.csproj|solutionrelative:mappers\\domaintoui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B81E16C-E41C-418D-AA59-A07C5A6FA9F0}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\recuperaciongestionempresarial\\domain\\usecases\\personausecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -50,9 +53,6 @@
       "AbsoluteMoniker": "D:0:0:{9B81E16C-E41C-418D-AA59-A07C5A6FA9F0}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\recuperaciongestionempresarial\\domain\\dtos\\personaconlistadodepartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B81E16C-E41C-418D-AA59-A07C5A6FA9F0}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\recuperaciongestionempresarial\\domain\\dtos\\personacondepartamentoseleccionado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{644A5BB0-EA40-470F-B965-E98E60B4864C}|..\\Data\\Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\recuperaciongestionempresarial\\data\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -69,23 +69,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersonaConColor.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\Models\\PersonaConColor.cs",
-              "RelativeDocumentMoniker": "Models\\PersonaConColor.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\Models\\PersonaConColor.cs",
-              "RelativeToolTip": "Models\\PersonaConColor.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "IPersonaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Repositories\\IPersonaRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Repositories\\IPersonaRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Repositories\\IPersonaRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Repositories\\IPersonaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:38:31.867Z"
+              "WhenOpened": "2026-01-07T11:37:51.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "IDepartamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Repositories\\IDepartamentoRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Repositories\\IDepartamentoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Repositories\\IDepartamentoRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Repositories\\IDepartamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T11:37:48.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPersonaUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Interfaces\\IPersonaUseCase.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IPersonaUseCase.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Interfaces\\IPersonaUseCase.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IPersonaUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T11:37:43.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-06T18:01:52.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonaConDepartamentoSeleccionado.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\DTOs\\PersonaConDepartamentoSeleccionado.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\DTOs\\PersonaConDepartamentoSeleccionado.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\DTOs\\PersonaConDepartamentoSeleccionado.cs",
+              "RelativeToolTip": "..\\Domain\\DTOs\\PersonaConDepartamentoSeleccionado.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T11:37:19.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DomainToUI.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\Mappers\\DomainToUI.cs",
+              "RelativeDocumentMoniker": "Mappers\\DomainToUI.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\Mappers\\DomainToUI.cs",
+              "RelativeToolTip": "Mappers\\DomainToUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T11:38:23.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DepartamentoUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\UseCases\\DepartamentoUseCase.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\UseCases\\DepartamentoUseCase.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\UseCases\\DepartamentoUseCase.cs",
+              "RelativeToolTip": "..\\Domain\\UseCases\\DepartamentoUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T11:37:54.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PersonaUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\UseCases\\PersonaUseCase.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\UseCases\\PersonaUseCase.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\UseCases\\PersonaUseCase.cs",
+              "RelativeToolTip": "..\\Domain\\UseCases\\PersonaUseCase.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T11:38:06.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IDomainToUI.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\Mappers\\IDomainToUI.cs",
               "RelativeDocumentMoniker": "Mappers\\IDomainToUI.cs",
@@ -98,78 +185,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DomainToUI.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\Mappers\\DomainToUI.cs",
-              "RelativeDocumentMoniker": "Mappers\\DomainToUI.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\Mappers\\DomainToUI.cs",
-              "RelativeToolTip": "Mappers\\DomainToUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PersonaConColor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\Models\\PersonaConColor.cs",
+              "RelativeDocumentMoniker": "Models\\PersonaConColor.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\Models\\PersonaConColor.cs",
+              "RelativeToolTip": "Models\\PersonaConColor.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:38:23.405Z"
+              "WhenOpened": "2026-01-07T11:38:31.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PersonaUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\UseCases\\PersonaUseCase.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\UseCases\\PersonaUseCase.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\UseCases\\PersonaUseCase.cs",
-              "RelativeToolTip": "..\\Domain\\UseCases\\PersonaUseCase.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:38:06.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DepartamentoUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\UseCases\\DepartamentoUseCase.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\UseCases\\DepartamentoUseCase.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\UseCases\\DepartamentoUseCase.cs",
-              "RelativeToolTip": "..\\Domain\\UseCases\\DepartamentoUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:37:54.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IPersonaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Repositories\\IPersonaRepository.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Repositories\\IPersonaRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Repositories\\IPersonaRepository.cs",
-              "RelativeToolTip": "..\\Domain\\Repositories\\IPersonaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:37:51.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IDepartamentoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Repositories\\IDepartamentoRepository.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Repositories\\IDepartamentoRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Repositories\\IDepartamentoRepository.cs",
-              "RelativeToolTip": "..\\Domain\\Repositories\\IDepartamentoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:37:48.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IPersonaUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Interfaces\\IPersonaUseCase.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IPersonaUseCase.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Interfaces\\IPersonaUseCase.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\IPersonaUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:37:43.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IDepartamentoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Interfaces\\IDepartamentoUseCase.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IDepartamentoUseCase.cs",
@@ -181,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Entities\\Persona.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\Persona.cs",
@@ -193,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Departamento.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\Entities\\Departamento.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\Departamento.cs",
@@ -205,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PersonaConListadoDepartamento.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\DTOs\\PersonaConListadoDepartamento.cs",
               "RelativeDocumentMoniker": "..\\Domain\\DTOs\\PersonaConListadoDepartamento.cs",
@@ -217,20 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAHgBAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-06T18:01:52.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\EjercicioRecuperacion\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -238,20 +252,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:19:55.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PersonaConDepartamentoSeleccionado.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\DTOs\\PersonaConDepartamentoSeleccionado.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\DTOs\\PersonaConDepartamentoSeleccionado.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\RecuperacionGestionEmpresarial\\Domain\\DTOs\\PersonaConDepartamentoSeleccionado.cs",
-              "RelativeToolTip": "..\\Domain\\DTOs\\PersonaConDepartamentoSeleccionado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:37:19.55Z"
+              "WhenOpened": "2026-01-07T11:19:55.283Z"
             },
             {
               "$type": "Document",
