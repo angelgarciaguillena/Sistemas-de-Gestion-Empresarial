@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Domain.Interfaces.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,9 @@ namespace Domain.Interfaces.Repository
     {
         Task<List<Producto>> GetAllAsync();
         Task<Producto?> GetByIdAsync(int id);
-        Task<List<Producto>> GetActivosAsync();
         Task<List<Producto>> GetByCategoriaAsync(int categoriaId);
+        Task<bool> CreateAsync(Producto producto);
+        Task<bool> UpdateAsync(Producto producto);
+        Task<bool> DeleteAsync(int productoId);
     }
 }

@@ -3,8 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\data\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|solutionrelative:repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\data\\repositories\\proveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|solutionrelative:repositories\\proveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\interfaces\\irepository\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\interfaces\\iusecases\\iproductousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\mappers\\productomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\usecases\\productousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\mappers\\proveedormapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\dtos\\estadopedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\interfaces\\iusecases\\ipedidousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\entities\\productoproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\dtos\\proveedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\interfaces\\iusecases\\iestadopedidousecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\interfaces\\iusecases\\iproveedorusecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\data\\datasources\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|solutionrelative:datasources\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\data\\network\\dbconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|solutionrelative:network\\dbconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\interfaces\\irepository\\iproveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\data\\repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|solutionrelative:repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\data\\repositories\\estadopedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|solutionrelative:repositories\\estadopedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\interfaces\\irepository\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -13,29 +81,7 @@
       "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\mappers\\pedidomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\mappers\\productomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\data\\repositories\\proveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|solutionrelative:repositories\\proveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\interfaces\\irepository\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\interfaces\\irepository\\iestadopedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\interfaces\\irepository\\iproveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\interfaces\\irepository\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\mappers\\proveedormapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\interfaces\\imappers\\iproductomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -44,16 +90,10 @@
       "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\interfaces\\imappers\\ipedidomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\dtos\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\interfaces\\imappers\\iproveedormapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\entities\\productoproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\dtos\\pedidodetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -65,16 +105,10 @@
       "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\entities\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\dtos\\proveedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\entities\\detallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\dtos\\estadopedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BA86DAD-2263-467C-AC10-A1FBA94E57D9}|..\\Domain\\Domain.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\domain\\dtos\\detallepedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -90,22 +124,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\data\\configurations\\proveedorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|solutionrelative:configurations\\proveedorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\data\\datasources\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|solutionrelative:datasources\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\data\\network\\dbconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|solutionrelative:network\\dbconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\data\\repositories\\estadopedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|solutionrelative:repositories\\estadopedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\data\\repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|solutionrelative:repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D640C9D8-AB28-486B-AAFF-F212A2307DFD}|Data.csproj|c:\\users\\usuario\\documents\\sistemas-de-gestion-empresarial\\proyectofinal\\data\\configurations\\estadopedidoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -135,76 +153,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductoMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Mappers\\ProductoMapper.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Mappers\\ProductoMapper.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Mappers\\ProductoMapper.cs",
-              "RelativeToolTip": "..\\Domain\\Mappers\\ProductoMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T22:57:21.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IPedidoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IRepository\\IPedidoRepository.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepository\\IPedidoRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IRepository\\IPedidoRepository.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepository\\IPedidoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ProductoUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\UseCases\\ProductoUseCases.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\UseCases\\ProductoUseCases.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\UseCases\\ProductoUseCases.cs",
+              "RelativeToolTip": "..\\Domain\\UseCases\\ProductoUseCases.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwG0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:53:07.75Z",
+              "WhenOpened": "2026-02-17T16:03:38.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Repositories\\ProductoRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ProductoRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Repositories\\ProductoRepository.cs",
-              "RelativeToolTip": "Repositories\\ProductoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IRepository\\IProductoRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepository\\IProductoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IRepository\\IProductoRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepository\\IProductoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T17:27:44.311Z",
+              "WhenOpened": "2026-02-04T19:53:08.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "IProductoUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IUseCases\\IProductoUseCases.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUseCases\\IProductoUseCases.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IUseCases\\IProductoUseCases.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUseCases\\IProductoUseCases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T16:06:27.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Entities\\Producto.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\Producto.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Entities\\Producto.cs",
               "RelativeToolTip": "..\\Domain\\Entities\\Producto.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwCQAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T19:53:22.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PedidoMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Mappers\\PedidoMapper.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Mappers\\PedidoMapper.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Mappers\\PedidoMapper.cs",
-              "RelativeToolTip": "..\\Domain\\Mappers\\PedidoMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "IPedidoUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IUseCases\\IPedidoUseCases.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUseCases\\IPedidoUseCases.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IUseCases\\IPedidoUseCases.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUseCases\\IPedidoUseCases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T22:57:49.869Z",
+              "WhenOpened": "2026-02-17T16:06:19.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
+              "Title": "ProductoProveedor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Entities\\ProductoProveedor.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\ProductoProveedor.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Entities\\ProductoProveedor.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\ProductoProveedor.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwDsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T19:53:23.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Mappers\\ProductoMapper.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Mappers\\ProductoMapper.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Mappers\\ProductoMapper.cs",
+              "RelativeToolTip": "..\\Domain\\Mappers\\ProductoMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T22:57:21.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EstadoPedidoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\EstadoPedidoDTO.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\DTOs\\EstadoPedidoDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\EstadoPedidoDTO.cs",
+              "RelativeToolTip": "..\\Domain\\DTOs\\EstadoPedidoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T20:16:43.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProveedorMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Mappers\\ProveedorMapper.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Mappers\\ProveedorMapper.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Mappers\\ProveedorMapper.cs",
+              "RelativeToolTip": "..\\Domain\\Mappers\\ProveedorMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T22:57:36.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "..\\Domain\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAmwIUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T16:04:45.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProveedorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Repositories\\ProveedorRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ProveedorRepository.cs",
@@ -218,32 +301,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Entities\\Pedido.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Pedido.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Entities\\Pedido.cs",
-              "RelativeToolTip": "..\\Domain\\Entities\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAjAAAAAAAAAA==",
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Repositories\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Repositories\\ProductoRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductoRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:53:21.264Z",
+              "WhenOpened": "2026-02-04T17:27:44.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IEstadoPedidoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IRepository\\IEstadoPedidoRepository.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepository\\IEstadoPedidoRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IRepository\\IEstadoPedidoRepository.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepository\\IEstadoPedidoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "ProveedorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\ProveedorDTO.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\DTOs\\ProveedorDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\ProveedorDTO.cs",
+              "RelativeToolTip": "..\\Domain\\DTOs\\ProveedorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:53:05.664Z",
+              "WhenOpened": "2026-02-04T20:03:18.951Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
+              "Title": "IEstadoPedidoUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IUseCases\\IEstadoPedidoUseCases.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUseCases\\IEstadoPedidoUseCases.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IUseCases\\IEstadoPedidoUseCases.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUseCases\\IEstadoPedidoUseCases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T16:06:28.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\ProductoDTO.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\DTOs\\ProductoDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\ProductoDTO.cs",
+              "RelativeToolTip": "..\\Domain\\DTOs\\ProductoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T19:56:05.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IProveedorUseCases.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IUseCases\\IProveedorUseCases.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUseCases\\IProveedorUseCases.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IUseCases\\IProveedorUseCases.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUseCases\\IProveedorUseCases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T16:06:27.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\DataSources\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DataSources\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\DataSources\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DataSources\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T12:23:52.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DbConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Network\\DbConfiguration.cs",
+              "RelativeDocumentMoniker": "Network\\DbConfiguration.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Network\\DbConfiguration.cs",
+              "RelativeToolTip": "Network\\DbConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T13:01:44.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "IProveedorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IRepository\\IProveedorRepository.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepository\\IProveedorRepository.cs",
@@ -256,33 +404,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IProductoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IRepository\\IProductoRepository.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepository\\IProductoRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IRepository\\IProductoRepository.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepository\\IProductoRepository.cs",
+              "DocumentIndex": 19,
+              "Title": "PedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Repositories\\PedidoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PedidoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Repositories\\PedidoRepository.cs",
+              "RelativeToolTip": "Repositories\\PedidoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T13:47:36.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EstadoPedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Repositories\\EstadoPedidoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EstadoPedidoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Repositories\\EstadoPedidoRepository.cs",
+              "RelativeToolTip": "Repositories\\EstadoPedidoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T15:59:12.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IPedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IRepository\\IPedidoRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepository\\IPedidoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IRepository\\IPedidoRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepository\\IPedidoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:53:08.695Z",
+              "WhenOpened": "2026-02-04T19:53:07.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProveedorMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Mappers\\ProveedorMapper.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Mappers\\ProveedorMapper.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Mappers\\ProveedorMapper.cs",
-              "RelativeToolTip": "..\\Domain\\Mappers\\ProveedorMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Entities\\Pedido.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Entities\\Pedido.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T22:57:36.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T19:53:21.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
+              "Title": "PedidoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Mappers\\PedidoMapper.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Mappers\\PedidoMapper.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Mappers\\PedidoMapper.cs",
+              "RelativeToolTip": "..\\Domain\\Mappers\\PedidoMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T22:57:49.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IEstadoPedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IRepository\\IEstadoPedidoRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepository\\IEstadoPedidoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IRepository\\IEstadoPedidoRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepository\\IEstadoPedidoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T19:53:05.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "IProductoMapper.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IMappers\\IProductoMapper.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IMappers\\IProductoMapper.cs",
@@ -290,12 +487,11 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\IMappers\\IProductoMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T23:03:21.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T23:03:21.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 26,
               "Title": "IPedidoMapper.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IMappers\\IPedidoMapper.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IMappers\\IPedidoMapper.cs",
@@ -303,25 +499,11 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\IMappers\\IPedidoMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T23:03:44.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T23:03:44.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\ProductoDTO.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\DTOs\\ProductoDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\ProductoDTO.cs",
-              "RelativeToolTip": "..\\Domain\\DTOs\\ProductoDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:56:05.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "PedidoDTO.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\PedidoDTO.cs",
               "RelativeDocumentMoniker": "..\\Domain\\DTOs\\PedidoDTO.cs",
@@ -329,12 +511,11 @@
               "RelativeToolTip": "..\\Domain\\DTOs\\PedidoDTO.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T20:05:27.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T20:05:27.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 28,
               "Title": "IProveedorMapper.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Interfaces\\IMappers\\IProveedorMapper.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IMappers\\IProveedorMapper.cs",
@@ -342,25 +523,11 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\IMappers\\IProveedorMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T23:03:33.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T23:03:33.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProductoProveedor.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Entities\\ProductoProveedor.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Entities\\ProductoProveedor.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Entities\\ProductoProveedor.cs",
-              "RelativeToolTip": "..\\Domain\\Entities\\ProductoProveedor.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwDsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:53:23.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 29,
               "Title": "PedidoDetalleDTO.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\PedidoDetalleDTO.cs",
               "RelativeDocumentMoniker": "..\\Domain\\DTOs\\PedidoDetalleDTO.cs",
@@ -368,12 +535,11 @@
               "RelativeToolTip": "..\\Domain\\DTOs\\PedidoDetalleDTO.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAmwD8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T20:16:04.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T20:16:04.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 30,
               "Title": "EstadoPedido.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Entities\\EstadoPedido.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\EstadoPedido.cs",
@@ -381,12 +547,11 @@
               "RelativeToolTip": "..\\Domain\\Entities\\EstadoPedido.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:53:20.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T19:53:20.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "Proveedor.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Entities\\Proveedor.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\Proveedor.cs",
@@ -394,24 +559,11 @@
               "RelativeToolTip": "..\\Domain\\Entities\\Proveedor.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAqwCoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:53:25.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T19:53:25.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProveedorDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\ProveedorDTO.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\DTOs\\ProveedorDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\ProveedorDTO.cs",
-              "RelativeToolTip": "..\\Domain\\DTOs\\ProveedorDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T20:03:18.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "DetallePedido.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Entities\\DetallePedido.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\DetallePedido.cs",
@@ -423,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\Entities\\Categoria.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\Categoria.cs",
@@ -435,19 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "EstadoPedidoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\EstadoPedidoDTO.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\DTOs\\EstadoPedidoDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\EstadoPedidoDTO.cs",
-              "RelativeToolTip": "..\\Domain\\DTOs\\EstadoPedidoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T20:16:43.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "DetallePedidoDTO.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Domain\\DTOs\\DetallePedidoDTO.cs",
               "RelativeDocumentMoniker": "..\\Domain\\DTOs\\DetallePedidoDTO.cs",
@@ -459,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 36,
               "Title": "CategoriaProductoConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Configurations\\CategoriaProductoConfiguration.cs",
               "RelativeDocumentMoniker": "Configurations\\CategoriaProductoConfiguration.cs",
@@ -471,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "DetallePedidoConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Configurations\\DetallePedidoConfiguration.cs",
               "RelativeDocumentMoniker": "Configurations\\DetallePedidoConfiguration.cs",
@@ -483,43 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "EstadoPedidoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Repositories\\EstadoPedidoRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\EstadoPedidoRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Repositories\\EstadoPedidoRepository.cs",
-              "RelativeToolTip": "Repositories\\EstadoPedidoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T15:59:12.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "DbConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Network\\DbConfiguration.cs",
-              "RelativeDocumentMoniker": "Network\\DbConfiguration.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Network\\DbConfiguration.cs",
-              "RelativeToolTip": "Network\\DbConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T13:01:44.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\DataSources\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "DataSources\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\DataSources\\ApplicationDbContext.cs",
-              "RelativeToolTip": "DataSources\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T12:23:52.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
               "Title": "ProveedorConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Configurations\\ProveedorConfiguration.cs",
               "RelativeDocumentMoniker": "Configurations\\ProveedorConfiguration.cs",
@@ -531,19 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "PedidoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Repositories\\PedidoRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\PedidoRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Repositories\\PedidoRepository.cs",
-              "RelativeToolTip": "Repositories\\PedidoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T13:47:36.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "EstadoPedidoConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Configurations\\EstadoPedidoConfiguration.cs",
               "RelativeDocumentMoniker": "Configurations\\EstadoPedidoConfiguration.cs",
@@ -555,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "PedidoConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Configurations\\PedidoConfiguration.cs",
               "RelativeDocumentMoniker": "Configurations\\PedidoConfiguration.cs",
@@ -567,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "ProductoConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Configurations\\ProductoConfiguration.cs",
               "RelativeDocumentMoniker": "Configurations\\ProductoConfiguration.cs",
@@ -579,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "ProductoProveedorConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Configurations\\ProductoProveedorConfiguration.cs",
               "RelativeDocumentMoniker": "Configurations\\ProductoProveedorConfiguration.cs",
@@ -591,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "Data.csproj",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Sistemas-de-Gestion-Empresarial\\ProyectoFinal\\Data\\Data.csproj",
               "RelativeDocumentMoniker": "Data.csproj",

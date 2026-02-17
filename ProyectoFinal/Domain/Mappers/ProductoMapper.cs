@@ -10,11 +10,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Mappers
 {
-    public static class ProductoMapper
+    public class ProductoMapper
     {
-        public static ProductoDTO ToDTO(Producto entity)
+        public ProductoDTO ToDTO(Producto entity)
         {
-            Categoria categoria = getCate
             return new ProductoDTO(
                 productoID: entity.ProductoID,
                 codigoProducto: entity.CodigoProducto,
@@ -25,6 +24,24 @@ namespace Domain.Mappers
                 stockActual: entity.StockActual,
                 categoriaNombre: "" // Se debe cargar desde la relación con Categoria
             );
+        }
+
+        public Producto ToEntity(ProductoDTO productoDTO, int categoriaID)
+        {
+            return new Producto
+            {
+                ProductoID = productoDTO.ProductoID,
+                CategoriaID = categoriaID,
+                CodigoProducto = productoDTO.CodigoProducto,
+                NombreProducto = productoDTO.NombreProducto,
+                Descripcion = productoDTO.Descripcion,
+                UnidadMedida = productoDTO.UnidadMedida,
+                PrecioUnitario = productoDTO.PrecioUnitario ?? 0,
+                StockActual = productoDTO.StockActual,
+                Activo = true,
+                FechaAlta = DateTime.Now,
+                FechaModificacion = null,
+            };
         }
     }
 }
